@@ -1,27 +1,27 @@
 <div align="center">
 
-  <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,8,24&height=220&section=header&text=Hi%20there,%20I'm%20Thahani%20👋&fontSize=42&fontAlignY=38&desc=Welcome%20to%20my%20GitHub%20profile!&descSize=20&descAlignY=62" width="100%" alt="Header Banner" />
+  <!-- Header Banner (Dark Grey to Vibrant Purple Gradient) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:18181b,50:3b0764,100:8b5cf6&height=220&section=header&text=Hi%20there,%20I'm%20Thahani%20👋&fontSize=42&fontAlignY=38&desc=Welcome%20to%20my%20GitHub%20profile!&descSize=20&descAlignY=62&fontColor=ffffff&descColor=c084fc" width="100%" alt="Header Banner" />
 
-  <!-- Animated Typing Text -->
+  <!-- Animated Typing Text (Neon Purple) -->
   <a href="https://github.com/thahaniazmi">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=500&height=50&lines=Full+Stack+Developer;Software+Engineering+Enthusiast;Open+Source+Explorer;Always+learning+new+tech" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=500&height=50&lines=Full+Stack+Developer;Software+Engineering+Enthusiast;Open+Source+Explorer;Always+learning+new+tech" alt="Typing SVG" />
   </a>
 
   <p align="center">
     📍 <b>Sri Lanka</b> &nbsp; | &nbsp; 💡 <i>Passionate about building scalable applications and intuitive user experiences.</i>
   </p>
 
-  <!-- Connect Socials -->
+  <!-- Connect Socials (Dark Grey & Purple Dual-Tone) -->
   <p align="center">
     <a href="https://linkedin.com/in/thahaniazmi" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-7928CA?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=18181B" alt="LinkedIn" />
     </a>
     <a href="mailto:thahaniazmi@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+      <img src="https://img.shields.io/badge/Gmail-Email%20Me-7928CA?style=for-the-badge&logo=gmail&logoColor=white&labelColor=18181B" alt="Gmail" />
     </a>
     <a href="https://github.com/thahaniazmi">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GitHub-Follow-7928CA?style=for-the-badge&logo=github&logoColor=white&labelColor=18181B" alt="GitHub" />
     </a>
   </p>
 
@@ -44,21 +44,21 @@
 
   #### Languages & Frontend
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap" alt="Languages & Frontend" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap&theme=dark" alt="Languages & Frontend" />
   </a>
 
   <br />
 
   #### Backend & Databases
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,mongodb,postgres,mysql,prisma" alt="Backend & Databases" />
+    <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,mongodb,postgres,mysql,prisma&theme=dark" alt="Backend & Databases" />
   </a>
 
   <br />
 
   #### DevOps & Tools
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,postman,figma,linux" alt="Tools & DevOps" />
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,postman,figma,linux&theme=dark" alt="Tools & DevOps" />
   </a>
 
 </div>
@@ -70,22 +70,22 @@
 <div align="center">
 
   <p align="center">
-    <!-- GitHub Stats Card -->
-    <img src="https://github-readme-stats.vercel.app/api?username=thahaniazmi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="Thahani's GitHub Stats" />
-    <!-- Top Languages Card -->
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thahaniazmi&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
+    <!-- GitHub Stats Card (Dark Grey & Purple) -->
+    <img src="https://github-readme-stats.vercel.app/api?username=thahaniazmi&show_icons=true&bg_color=18181b&title_color=a855f7&text_color=e4e4e7&icon_color=c084fc&border_color=27272a&border_radius=10&count_private=true" height="165" alt="Thahani's GitHub Stats" />
+    <!-- Top Languages Card (Dark Grey & Purple) -->
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thahaniazmi&layout=compact&bg_color=18181b&title_color=a855f7&text_color=e4e4e7&border_color=27272a&border_radius=10" height="165" alt="Top Languages" />
   </p>
 
   <p align="center">
-    <!-- Streak Stats Card -->
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=thahaniazmi&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak" />
+    <!-- Streak Stats Card (Dark Grey & Purple) -->
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=thahaniazmi&background=18181b&border=27272a&stroke=a855f7&ring=a855f7&fire=a855f7&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=a855f7&sideLabels=a855f7&dates=a1a1aa&border_radius=10" height="165" alt="GitHub Streak" />
   </p>
 
 </div>
 
 ---
 
-<!-- Footer Wave -->
+<!-- Footer Wave (Purple to Dark Grey Gradient) -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,8,24&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:3b0764,100:18181b&height=100&section=footer" width="100%" alt="Footer Banner" />
 </div>

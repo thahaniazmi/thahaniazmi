@@ -128,7 +128,7 @@
   </g>
 
   <g transform="translate(145, 368)">
-    <text x="0" y="0" text-anchor="middle" class="mono comment" font-size="10">ARCH // x86_64 CYBERDECK</text>
+    <text x="0" y="0" text-anchor="middle" class="mono comment" font-size="10">DEV // x86_64 CYBERDECK</text>
   </g>
 
   <!-- Center Vertical Column Divider -->
@@ -205,21 +205,21 @@
     <text y="144">
       <tspan class="key">Backend</tspan>
       <tspan class="punct">...... </tspan>
-      <tspan class="val">Node.js, Express, Python, Django</tspan>
+      <tspan class="val">Node.js, Express, Python</tspan>
     </text>
 
     <!-- Row 8: Databases -->
     <text y="168">
       <tspan class="key">Databases</tspan>
       <tspan class="punct">.... </tspan>
-      <tspan class="val">PostgreSQL, MongoDB, MySQL, Prisma ORM</tspan>
+      <tspan class="val">PostgreSQL, MySQL</tspan>
     </text>
 
     <!-- Row 9: DevOps & Tools -->
     <text y="192">
       <tspan class="key">DevOps/Env</tspan>
       <tspan class="punct">... </tspan>
-      <tspan class="val">Docker, Git, GitHub Actions, Linux, VS Code</tspan>
+      <tspan class="val">Docker, Git, GitHub Actions, VS Code, Postman</tspan>
     </text>
 
     <!-- Row 10: Status -->

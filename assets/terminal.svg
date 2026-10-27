@@ -167,8 +167,7 @@
     <text y="48">
       <tspan class="key">Location</tspan>
       <tspan class="punct">..... </tspan>
-      <tspan class="val">Sri Lanka </tspan>
-      <tspan fill="#38BDF8">🇱🇰</tspan>
+      <tspan class="val">Sri Lanka</tspan>
     </text>
 
     <!-- Row 4: Uptime -->
@@ -176,7 +175,7 @@
       <tspan class="key">Uptime</tspan>
       <tspan class="punct">....... </tspan>
       <tspan class="val">24/7 </tspan>
-      <tspan class="comment">(Powered by Caffeine ☕ &amp; Clean Code)</tspan>
+      <tspan class="comment">(Powered by Caffeine &amp; Clean Code)</tspan>
     </text>
 
     <!-- Row 5: Shell -->

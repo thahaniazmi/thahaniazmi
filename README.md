@@ -15,15 +15,9 @@
 
   <!-- Social & Connect Badges -->
   <p align="center">
-    <a href="https://linkedin.com/in/thahaniazmi" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:thahaniazmi@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-    </a>
-    <a href="https://github.com/thahaniazmi">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
+    <a href="https://linkedin.com/in/thahaniazmi" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+    <a href="mailto:thahani.dev@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>&nbsp;
+    <a href="https://github.com/thahaniazmi"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   </p>
 
 </div>
@@ -71,26 +65,6 @@
 
 </div>
 
----
-
-<!-- ==================== GITHUB STATS & ACTIVITY ==================== -->
-<div align="center">
-
-  ### 📊 GitHub Activity & Statistics
-
-  <p align="center">
-    <!-- GitHub Stats Card -->
-    <img src="https://github-readme-stats.vercel.app/api?username=thahaniazmi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="Thahani's GitHub Stats" />
-    <!-- Top Languages Card -->
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thahaniazmi&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
-  </p>
-
-  <p align="center">
-    <!-- Streak Stats Card -->
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=thahaniazmi&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak" />
-  </p>
-
-</div>
 
 ---
 

@@ -245,11 +245,13 @@
   <!-- ==================== BOTTOM HUD: PILL CHIPS & SPECS ==================== -->
   <g transform="translate(420, 188)" text-anchor="middle">
     <!-- Chip 1: Architecture -->
-    <g transform="translate(-195, 0)" class="floating-tag">
-      <rect x="-85" y="-11" width="170" height="22" rx="11" fill="url(#pillBg)" stroke="#372654" stroke-width="0.9"/>
-      <text x="0" y="3.5" class="mono" font-size="9" fill="#E2E8F0" font-weight="600" letter-spacing="0.5">
-        <tspan fill="#8B5CF6">⚡ </tspan>Scalable Systems
-      </text>
+    <g transform="translate(-195, 0)">
+      <g class="floating-tag">
+        <rect x="-85" y="-11" width="170" height="22" rx="11" fill="url(#pillBg)" stroke="#372654" stroke-width="0.9"/>
+        <text x="0" y="3.5" class="mono" font-size="9" fill="#E2E8F0" font-weight="600" letter-spacing="0.5">
+          <tspan fill="#8B5CF6">⚡ </tspan>Scalable Systems
+        </text>
+      </g>
     </g>
 
     <!-- Chip 2: Tech Core -->
@@ -261,11 +263,13 @@
     </g>
 
     <!-- Chip 3: Design / Experience -->
-    <g transform="translate(195, 0)" class="floating-tag">
-      <rect x="-85" y="-11" width="170" height="22" rx="11" fill="url(#pillBg)" stroke="#372654" stroke-width="0.9"/>
-      <text x="0" y="3.5" class="mono" font-size="9" fill="#E2E8F0" font-weight="600" letter-spacing="0.5">
-        <tspan fill="#C084FC">✦ </tspan>Fluid UI Architecture
-      </text>
+    <g transform="translate(195, 0)">
+      <g class="floating-tag">
+        <rect x="-85" y="-11" width="170" height="22" rx="11" fill="url(#pillBg)" stroke="#372654" stroke-width="0.9"/>
+        <text x="0" y="3.5" class="mono" font-size="9" fill="#E2E8F0" font-weight="600" letter-spacing="0.5">
+          <tspan fill="#C084FC">✦ </tspan>Fluid UI Architecture
+        </text>
+      </g>
     </g>
   </g>
 

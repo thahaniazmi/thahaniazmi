@@ -23,8 +23,9 @@
 
     <linearGradient id="innerDivider" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#3B2667" stop-opacity="0.1"/>
-      <stop offset="20%" stop-color="#8B5CF6" stop-opacity="0.6"/>
-      <stop offset="80%" stop-color="#7DCFFF" stop-opacity="0.4"/>
+      <stop offset="15%" stop-color="#8B5CF6" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#7DCFFF" stop-opacity="0.4"/>
+      <stop offset="85%" stop-color="#C084FC" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#3B2667" stop-opacity="0.1"/>
     </linearGradient>
 
@@ -185,7 +186,7 @@
   </g>
 
   <!-- Window Header Right Terminal Badge -->
-  <g transform="translate(775, 20)">
+  <g transform="translate(782, 20)">
     <rect x="-30" y="-8" width="60" height="16" rx="8" fill="#20183B" stroke="#3A295C" stroke-width="0.8"/>
     <text x="0" y="3.5" text-anchor="middle" class="mono" font-size="9" fill="#9D8EB3" font-weight="600" letter-spacing="0.5">zsh // v5.9</text>
   </g>
@@ -244,36 +245,21 @@
   </g>
 
   <!-- Left Bottom Badges -->
-  <!-- Status Badge -->
-  <g transform="translate(145, 340)">
-    <rect x="-70" y="-12" width="140" height="24" rx="12" fill="#18122D" stroke="#3D295C" stroke-width="1"/>
+  <!-- Status Badge (Centered beneath core, balanced padding & spacing) -->
+  <g transform="translate(145, 355)">
+    <rect x="-77" y="-13" width="154" height="26" rx="13" fill="#16112a" stroke="#372654" stroke-width="1"/>
     <!-- Glowing Online Indicator Dot -->
-    <circle cx="-52" cy="0" r="3.5" fill="#10B981" filter="url(#neonGlow)" class="pulse-dot"/>
-    <text x="6" y="3.8" text-anchor="middle" class="mono" font-size="10" fill="#34D399" font-weight="700" letter-spacing="1.2">SYSTEM // ONLINE</text>
-  </g>
-
-  <!-- Sub-label Specs Badge -->
-  <g transform="translate(145, 375)">
-    <rect x="-85" y="-10" width="170" height="20" rx="6" fill="#120D23" stroke="#25193B" stroke-width="0.8"/>
-    <text x="0" y="3.5" text-anchor="middle" class="mono" font-size="9" fill="#8C7BA3" font-weight="500" letter-spacing="0.8">DEV ARCH // x86_64 CYBERDECK</text>
+    <circle cx="-55" cy="0" r="3.5" fill="#10B981" filter="url(#neonGlow)" class="pulse-dot"/>
+    <text x="-40" y="3.8" class="mono" font-size="9.5" fill="#34D399" font-weight="700" letter-spacing="1.2">SYSTEM // ONLINE</text>
   </g>
 
   <!-- ==================== VERTICAL COLUMN DIVIDER ==================== -->
-  <line x1="282" y1="50" x2="282" y2="415" stroke="url(#innerDivider)" stroke-width="1.2"/>
+  <line x1="280" y1="48" x2="280" y2="415" stroke="url(#innerDivider)" stroke-width="1.2"/>
 
   <!-- ==================== RIGHT COLUMN: FASTFETCH TERMINAL ==================== -->
   <!-- Command Prompt Line -->
   <g transform="translate(306, 68)">
-    <text class="mono" font-size="13">
-      <tspan fill="#C084FC" font-weight="700">thahani</tspan>
-      <tspan fill="#64537E">@</tspan>
-      <tspan fill="#7DCFFF" font-weight="700">cyberdeck</tspan>
-      <tspan fill="#584578">:</tspan>
-      <tspan fill="#E879F9">~</tspan>
-      <tspan fill="#7C3AED" font-weight="700">$ </tspan>
-      <tspan fill="#F8FAFC" font-weight="600">fastfetch --profile</tspan>
-      <tspan fill="#7DCFFF" class="cursor-blink" font-weight="700"> █</tspan>
-    </text>
+    <text class="mono" font-size="12.5"><tspan fill="#C084FC" font-weight="700">thahani</tspan><tspan fill="#64537E">@</tspan><tspan fill="#7DCFFF" font-weight="700">cyberdeck</tspan><tspan fill="#584578">:</tspan><tspan fill="#E879F9">~</tspan><tspan fill="#7C3AED" font-weight="700">$ </tspan><tspan fill="#F8FAFC" font-weight="600">fastfetch --profile</tspan><tspan fill="#7DCFFF" class="cursor-blink" font-weight="700"> █</tspan></text>
   </g>
 
   <!-- Command Divider Line -->
@@ -284,8 +270,8 @@
     <!-- Row 1: OS -->
     <g transform="translate(306, 107)">
       <text class="lbl" x="0" y="0">OS</text>
-      <text class="sym" x="90" y="0">➜</text>
-      <text x="110" y="0">
+      <text class="sym" x="94" y="0">➜</text>
+      <text x="116" y="0">
         <tspan class="val-main">DevOS v3.8 </tspan>
         <tspan class="val-tag" font-size="11">(Tokyo Night Pro Edition)</tspan>
       </text>
@@ -294,15 +280,15 @@
     <!-- Row 2: Host / Role -->
     <g transform="translate(306, 132)">
       <text class="lbl" x="0" y="0">Host</text>
-      <text class="sym" x="90" y="0">➜</text>
-      <text class="val-main" x="110" y="0">Full-Stack Developer &amp; Software Engineer</text>
+      <text class="sym" x="94" y="0">➜</text>
+      <text class="val-main" x="116" y="0">Full-Stack Developer &amp; Software Engineer</text>
     </g>
 
     <!-- Row 3: Uptime -->
     <g transform="translate(306, 157)">
       <text class="lbl" x="0" y="0">Uptime</text>
-      <text class="sym" x="90" y="0">➜</text>
-      <text x="110" y="0">
+      <text class="sym" x="94" y="0">➜</text>
+      <text x="116" y="0">
         <tspan class="val-highlight">24/7 </tspan>
         <tspan class="val-soft" font-size="11">(Powered by Caffeine &amp; Clean Code)</tspan>
       </text>
@@ -311,116 +297,63 @@
     <!-- Row 4: Shell & Core -->
     <g transform="translate(306, 182)">
       <text class="lbl" x="0" y="0">Shell</text>
-      <text class="sym" x="90" y="0">➜</text>
-      <text x="110" y="0">
-        <tspan class="val-main">zsh 5.9 </tspan>
-        <tspan class="sym">/ </tspan>
-        <tspan class="val-highlight">TypeScript</tspan>
-        <tspan class="sym"> / </tspan>
-        <tspan class="val-tag">Python</tspan>
-      </text>
+      <text class="sym" x="94" y="0">➜</text>
+      <text x="116" y="0"><tspan class="val-main">zsh 5.9</tspan> <tspan class="sym">/</tspan> <tspan class="val-highlight">TypeScript</tspan> <tspan class="sym">/</tspan> <tspan class="val-tag">Python</tspan></text>
     </g>
 
     <!-- Row 5: Frontend -->
     <g transform="translate(306, 207)">
       <text class="lbl" x="0" y="0">Frontend</text>
-      <text class="sym" x="90" y="0">➜</text>
-      <text x="110" y="0">
-        <tspan class="val-main">React </tspan><tspan class="val-bullet">● </tspan>
-        <tspan class="val-main">Next.js </tspan><tspan class="val-bullet">● </tspan>
-        <tspan class="val-main">Tailwind CSS </tspan><tspan class="val-bullet">● </tspan>
-        <tspan class="val-soft">HTML5/CSS3</tspan>
-      </text>
+      <text class="sym" x="94" y="0">➜</text>
+      <text x="116" y="0"><tspan class="val-main">React</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Next.js</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Tailwind CSS</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-soft">HTML5/CSS3</tspan></text>
     </g>
 
     <!-- Row 6: Backend -->
     <g transform="translate(306, 232)">
       <text class="lbl" x="0" y="0">Backend</text>
-      <text class="sym" x="90" y="0">➜</text>
-      <text x="110" y="0">
-        <tspan class="val-main">Node.js </tspan><tspan class="val-bullet">● </tspan>
-        <tspan class="val-main">Express </tspan><tspan class="val-bullet">● </tspan>
-        <tspan class="val-main">Python</tspan>
-      </text>
+      <text class="sym" x="94" y="0">➜</text>
+      <text x="116" y="0"><tspan class="val-main">Node.js</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Express</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Python</tspan></text>
     </g>
 
     <!-- Row 7: Databases -->
     <g transform="translate(306, 257)">
       <text class="lbl" x="0" y="0">Databases</text>
-      <text class="sym" x="90" y="0">➜</text>
-      <text x="110" y="0">
-        <tspan class="val-main">PostgreSQL </tspan><tspan class="val-bullet">● </tspan>
-        <tspan class="val-main">MySQL</tspan>
-      </text>
+      <text class="sym" x="94" y="0">➜</text>
+      <text x="116" y="0"><tspan class="val-main">PostgreSQL</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">MySQL</tspan></text>
     </g>
 
     <!-- Row 8: DevOps & Tools -->
     <g transform="translate(306, 282)">
       <text class="lbl" x="0" y="0">DevOps/Env</text>
-      <text class="sym" x="90" y="0">➜</text>
-      <text x="110" y="0">
-        <tspan class="val-main">Docker </tspan><tspan class="val-bullet">● </tspan>
-        <tspan class="val-main">Git &amp; GitHub Actions </tspan><tspan class="val-bullet">● </tspan>
-        <tspan class="val-soft">VS Code, Postman</tspan>
-      </text>
+      <text class="sym" x="94" y="0">➜</text>
+      <text x="116" y="0"><tspan class="val-main">Docker</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Git &amp; GitHub Actions</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-soft">VS Code, Postman</tspan></text>
     </g>
 
     <!-- Row 9: Status -->
     <g transform="translate(306, 307)">
       <text class="lbl" x="0" y="0">Status</text>
-      <text class="sym" x="90" y="0">➜</text>
-      <text x="110" y="0">
-        <tspan fill="#34D399">● </tspan>
-        <tspan fill="#C084FC" font-weight="500">Available for innovative builds &amp; open source</tspan>
-      </text>
+      <text class="sym" x="94" y="0">➜</text>
+      <text x="116" y="0"><tspan fill="#34D399">● </tspan><tspan fill="#C084FC" font-weight="500">Available for innovative builds &amp; open source</tspan></text>
     </g>
   </g>
 
   <!-- Bottom Divider Line -->
   <line x1="306" y1="334" x2="812" y2="334" stroke="#2D2149" stroke-width="1"/>
 
-  <!-- ==================== BOTTOM WIDGETS: PALETTE & TELEMETRY ==================== -->
-  <g transform="translate(306, 350)">
-    <!-- Left: Tokyo Night 16 ANSI Color Blocks -->
-    <g>
-      <!-- Row 1: Base Dark / ANSI Standard -->
-      <rect x="0"   y="0" width="23" height="13" rx="3.5" fill="#24283B" stroke="#343B58" stroke-width="0.8"/>
-      <rect x="29"  y="0" width="23" height="13" rx="3.5" fill="#F7768E"/>
-      <rect x="58"  y="0" width="23" height="13" rx="3.5" fill="#9ECE6A"/>
-      <rect x="87"  y="0" width="23" height="13" rx="3.5" fill="#E0AF68"/>
-      <rect x="116" y="0" width="23" height="13" rx="3.5" fill="#7AA2F7"/>
-      <rect x="145" y="0" width="23" height="13" rx="3.5" fill="#BB9AF7"/>
-      <rect x="174" y="0" width="23" height="13" rx="3.5" fill="#7DCFFF"/>
-      <rect x="203" y="0" width="23" height="13" rx="3.5" fill="#C0CAF5"/>
-
-      <!-- Row 2: Neon Bright / ANSI High-Intensity -->
-      <rect x="0"   y="18" width="23" height="13" rx="3.5" fill="#414868"/>
-      <rect x="29"  y="18" width="23" height="13" rx="3.5" fill="#FF7A93"/>
-      <rect x="58"  y="18" width="23" height="13" rx="3.5" fill="#B9F27C"/>
-      <rect x="87"  y="18" width="23" height="13" rx="3.5" fill="#FF9E3B"/>
-      <rect x="116" y="18" width="23" height="13" rx="3.5" fill="#89DDFF"/>
-      <rect x="145" y="18" width="23" height="13" rx="3.5" fill="#E879F9"/>
-      <rect x="174" y="18" width="23" height="13" rx="3.5" fill="#B4F9F8"/>
-      <rect x="203" y="18" width="23" height="13" rx="3.5" fill="#FFFFFF"/>
-    </g>
-
-    <!-- Right: Telemetry System Meters (Caffeine & Passion) -->
-    <g transform="translate(262, 0)">
+  <!-- ==================== BOTTOM WIDGET: TELEMETRY METERS ==================== -->
+  <g transform="translate(306, 355)">
+    <g transform="translate(64, 0)">
       <!-- Caffeine Row -->
-      <text class="mono" font-size="10" fill="#9CA3AF" font-weight="600" x="0" y="10">CAFFEINE</text>
-      <!-- Meter Track -->
-      <rect x="68" y="1.5" width="134" height="10" rx="5" fill="#1C1530" stroke="#31224F" stroke-width="0.8"/>
-      <!-- Meter Progress Fill (99%) -->
-      <rect x="69.5" y="3" width="130" height="7" rx="3.5" fill="url(#meterCaffeine)"/>
-      <text class="mono" font-size="10" fill="#7DCFFF" font-weight="700" x="210" y="10">99%</text>
+      <text class="mono" font-size="10" fill="#9CA3AF" font-weight="600" x="0" y="9">CAFFEINE</text>
+      <rect x="75" y="0" width="260" height="11" rx="5.5" fill="#18122B" stroke="#362552" stroke-width="0.8"/>
+      <rect x="76.5" y="1.5" width="254" height="8" rx="4" fill="url(#meterCaffeine)"/>
+      <text class="mono" font-size="10" fill="#7DCFFF" font-weight="700" x="348" y="9">99%</text>
 
       <!-- Passion Row -->
-      <text class="mono" font-size="10" fill="#9CA3AF" font-weight="600" x="0" y="28">PASSION</text>
-      <!-- Meter Track -->
-      <rect x="68" y="19.5" width="134" height="10" rx="5" fill="#1C1530" stroke="#31224F" stroke-width="0.8"/>
-      <!-- Meter Progress Fill (100%) -->
-      <rect x="69.5" y="21" width="131" height="7" rx="3.5" fill="url(#meterPassion)"/>
-      <text class="mono" font-size="10" fill="#F43F5E" font-weight="700" x="210" y="28">100%</text>
+      <text class="mono" font-size="10" fill="#9CA3AF" font-weight="600" x="0" y="27">PASSION</text>
+      <rect x="75" y="18" width="260" height="11" rx="5.5" fill="#18122B" stroke="#362552" stroke-width="0.8"/>
+      <rect x="76.5" y="19.5" width="257" height="8" rx="4" fill="url(#meterPassion)"/>
+      <text class="mono" font-size="10" fill="#F43F5E" font-weight="700" x="348" y="27">100%</text>
     </g>
   </g>
 </svg>

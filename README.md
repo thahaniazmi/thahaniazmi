@@ -28,7 +28,7 @@
 <div align="center">
 
   <a href="#-tech-stack--arsenal">
-    <img src="./assets/terminal.svg" width="98%" alt="Thahani's Cyberpunk Neofetch Terminal" />
+    <img src="./assets/terminal.svg?v=2" width="98%" alt="Thahani's Cyberpunk Neofetch Terminal" />
   </a>
 
 </div>

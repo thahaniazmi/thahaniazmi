@@ -22,10 +22,6 @@
 <!-- ==================== TECH STACK & ARSENAL ==================== -->
 <div align="center">
 
-  ### 🛠️ Tech Stack & Arsenal
-
-  <br />
-
   <p><b>Languages &amp; Frontend</b></p>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&theme=dark" alt="Languages & Frontend" />

@@ -15,12 +15,36 @@
       <stop offset="100%" stop-color="#C084FC" stop-opacity="0.75"/>
     </linearGradient>
 
-    <!-- Glowing Text Gradient for AZMI -->
+    <!-- Glowing Holographic Text Gradient for AZMI (Dynamic Color Shift) -->
     <linearGradient id="nameAzmiGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#C084FC"/>
-      <stop offset="50%" stop-color="#A855F7"/>
-      <stop offset="100%" stop-color="#7DCFFF"/>
+      <stop offset="0%" stop-color="#C084FC">
+        <animate attributeName="stop-color" values="#C084FC;#7DCFFF;#E879F9;#8B5CF6;#C084FC" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7;#C084FC;#7DCFFF;#EC4899;#A855F7" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#7DCFFF">
+        <animate attributeName="stop-color" values="#7DCFFF;#E879F9;#C084FC;#7DCFFF;#7DCFFF" dur="7s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
+
+    <!-- Specular Light Beam Gradient for Name Shimmer Flare -->
+    <linearGradient id="shimmerBeamGrad" x1="0%" y1="0%" x2="100%" y2="60%">
+      <stop offset="0%" stop-color="#7DCFFF" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#7DCFFF" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="75%" stop-color="#C084FC" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Geometric Clip for Name Shimmer Sweep -->
+    <clipPath id="nameClip">
+      <g transform="translate(420, 106)" text-anchor="middle">
+        <text class="display" font-size="44" font-weight="900" letter-spacing="5px">
+          THAHANI AZMI
+        </text>
+      </g>
+    </clipPath>
 
     <!-- Radiant Underline Beam -->
     <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -73,6 +97,14 @@
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, 'Helvetica Neue', Arial, sans-serif;
       }
 
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      .pulse-online {
+        animation: pulseDot 2.2s infinite ease-in-out;
+      }
+
       @keyframes beamShimmer {
         0% { opacity: 0.6; }
         50% { opacity: 1; }
@@ -80,6 +112,40 @@
       }
       .shimmer {
         animation: beamShimmer 3s infinite ease-in-out;
+      }
+
+      /* Hero Name Keyframe Animations */
+      @keyframes nameGlowBreathe {
+        0%, 100% { opacity: 0.22; }
+        50% { opacity: 0.68; }
+      }
+      .name-glow-pulse {
+        animation: nameGlowBreathe 3.2s infinite ease-in-out;
+      }
+
+      @keyframes nameCyanBreathe {
+        0%, 100% { opacity: 0.1; }
+        50% { opacity: 0.45; }
+      }
+      .name-cyan-glow {
+        animation: nameCyanBreathe 3.2s infinite ease-in-out;
+        animation-delay: 0.5s;
+      }
+
+      @keyframes bracketPulse {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 0.85; }
+      }
+      .bracket-pulse {
+        animation: bracketPulse 3.2s infinite ease-in-out;
+      }
+
+      @keyframes diamondGlow {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      .diamond-pulse {
+        animation: diamondGlow 2.2s infinite ease-in-out;
       }
 
       @keyframes floatTag {
@@ -115,22 +181,35 @@
     </text>
   </g>
 
+  <!-- Top-Right System Status Pill -->
+  <g transform="translate(730, 24)">
+    <rect x="-82" y="-12" width="164" height="24" rx="12" fill="#150F28" stroke="#3A2756" stroke-width="0.9"/>
+    <!-- Glowing Green Status Indicator -->
+    <circle cx="-64" cy="0" r="3.5" fill="#10B981" filter="url(#subtleGlow)" class="pulse-online"/>
+    <text x="-50" y="3.5" class="mono" font-size="9" fill="#34D399" font-weight="700" letter-spacing="1.1">SYSTEM // ACTIVE</text>
+  </g>
+
   <!-- Top Divider Track -->
   <line x1="24" y1="38" x2="816" y2="38" stroke="#251B40" stroke-width="1"/>
 
   <!-- ==================== HERO: FULL NAME DISPLAY ==================== -->
   <!-- Subtle Framing Tech Brackets -->
-  <g opacity="0.45">
+  <g class="bracket-pulse" opacity="0.45">
     <!-- Left Bracket -->
     <path d="M 120 78 L 105 78 L 105 138 L 120 138" fill="none" stroke="#7C3AED" stroke-width="1.6"/>
     <!-- Right Bracket -->
     <path d="M 720 78 L 735 78 L 735 138 L 720 138" fill="none" stroke="#7C3AED" stroke-width="1.6"/>
   </g>
 
-  <!-- Centered Name Typography -->
+  <!-- Centered Name Typography Group -->
   <g transform="translate(420, 106)" text-anchor="middle">
-    <!-- Outer Name Drop Glow -->
-    <text class="display" font-size="44" font-weight="900" letter-spacing="5px" fill="#7C3AED" opacity="0.3" filter="url(#ambientLight)">
+    <!-- Deep Ambient Violet Halo Glow (Breathing Pulse) -->
+    <text class="display name-glow-pulse" font-size="44" font-weight="900" letter-spacing="5px" fill="#7C3AED" opacity="0.3" filter="url(#ambientLight)">
+      THAHANI AZMI
+    </text>
+
+    <!-- Electric Cyan Core Glow (Harmonic Pulse) -->
+    <text class="display name-cyan-glow" font-size="44" font-weight="900" letter-spacing="5px" fill="#7DCFFF" opacity="0.2" filter="url(#neonGlow)">
       THAHANI AZMI
     </text>
 
@@ -141,11 +220,19 @@
     </text>
   </g>
 
+  <!-- Specular Light Sweep / Shimmer Flare Overlay Across Letters -->
+  <g clip-path="url(#nameClip)">
+    <rect y="55" width="140" height="65" fill="url(#shimmerBeamGrad)">
+      <animate attributeName="x" values="70; 700; 700" keyTimes="0; 0.35; 1" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0; 1; 1; 0; 0" keyTimes="0; 0.04; 0.32; 0.35; 1" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
   <!-- Glowing Radiant Beam Underline with Center Diamond -->
   <g transform="translate(420, 126)">
     <line x1="-220" y1="0" x2="220" y2="0" stroke="url(#beamGrad)" stroke-width="1.5" class="shimmer"/>
     <!-- Center Glowing Cyber Diamond -->
-    <polygon points="0,-4 4,0 0,4 -4,0" fill="#7DCFFF" filter="url(#subtleGlow)"/>
+    <polygon points="0,-4 4,0 0,4 -4,0" fill="#7DCFFF" filter="url(#subtleGlow)" class="diamond-pulse"/>
   </g>
 
   <!-- Subtitle: Role & Architecture Focus -->

@@ -1,11 +1,11 @@
 <div align="center">
 
   <!-- ==================== HEADER BANNER ==================== -->
-  <img src="./assets/header.svg?v=2" width="98%" alt="Thahani Azmi // Header Banner" />
+  <img src="./assets/header.svg?v=4" width="98%" alt="Thahani Azmi // Header Banner" />
 
   <!-- Animated Typing SVG (Neon Purple) -->
   <a href="https://github.com/thahaniazmi">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=550&height=50&lines=Full+Stack+Software+Developer;Building+scalable+%26+modern+web+apps;TypeScript+%26+Python+Enthusiast;Turning+caffeine+into+clean+code" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=550&height=50&lines=Hi%2C+I'm+Thahani+Azmi+%F0%9F%91%8B;Full+Stack+Software+Developer;Building+scalable+%26+modern+web+apps;TypeScript+%26+Python+Enthusiast;Turning+caffeine+into+clean+code" alt="Typing SVG" />
   </a>
 
   <!-- Philosophy -->

@@ -27,8 +27,6 @@
 <!-- ==================== HERO: CYBERPUNK TERMINAL ==================== -->
 <div align="center">
 
-  ### 🖥️ System Telemetry & Environment
-
   <a href="#-tech-stack--arsenal">
     <img src="./assets/terminal.svg" width="98%" alt="Thahani's Cyberpunk Neofetch Terminal" />
   </a>

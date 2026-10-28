@@ -73,14 +73,6 @@
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, 'Helvetica Neue', Arial, sans-serif;
       }
 
-      @keyframes pulseDot {
-        0%, 100% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.35; transform: scale(0.85); }
-      }
-      .pulse-online {
-        animation: pulseDot 2.2s infinite ease-in-out;
-      }
-
       @keyframes beamShimmer {
         0% { opacity: 0.6; }
         50% { opacity: 1; }
@@ -121,14 +113,6 @@
     <text x="16" y="7" class="mono" font-size="10" font-weight="600" letter-spacing="1">
       <tspan fill="#7DCFFF">ID</tspan><tspan fill="#64537E"> // </tspan><tspan fill="#C084FC">THAHANI_AZMI.DEV</tspan>
     </text>
-  </g>
-
-  <!-- Top-Right System Status Pill -->
-  <g transform="translate(730, 24)">
-    <rect x="-82" y="-12" width="164" height="24" rx="12" fill="#150F28" stroke="#3A2756" stroke-width="0.9"/>
-    <!-- Glowing Green Status Indicator -->
-    <circle cx="-64" cy="0" r="3.5" fill="#10B981" filter="url(#subtleGlow)" class="pulse-online"/>
-    <text x="-50" y="3.5" class="mono" font-size="9" fill="#34D399" font-weight="700" letter-spacing="1.1">SYSTEM // ACTIVE</text>
   </g>
 
   <!-- Top Divider Track -->

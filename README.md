@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- ==================== HEADER BANNER ==================== -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:18181b,50:3b0764,100:8b5cf6&height=220&section=header&text=Hi%20there,%20I'm%20Thahani%20👋&fontSize=42&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Software%20Engineering%20Enthusiast&descSize=19&descAlignY=62&fontColor=ffffff&descColor=c084fc" width="100%" alt="Header Banner" />
+  <img src="./assets/header.svg?v=1" width="98%" alt="Thahani Azmi // Header Banner" />
 
   <!-- Animated Typing SVG (Neon Purple) -->
   <a href="https://github.com/thahaniazmi">

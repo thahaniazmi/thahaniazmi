@@ -162,29 +162,22 @@
     </text>
 
     <!-- Row 2: Role -->
-    <text y="24">
+    <text y="27">
       <tspan class="key">Host</tspan>
       <tspan class="punct">......... </tspan>
       <tspan class="val">Full-Stack Developer &amp; Software Engineer</tspan>
     </text>
 
-    <!-- Row 3: Location -->
-    <text y="48">
-      <tspan class="key">Location</tspan>
-      <tspan class="punct">..... </tspan>
-      <tspan class="val">Sri Lanka</tspan>
-    </text>
-
-    <!-- Row 4: Uptime -->
-    <text y="72">
+    <!-- Row 3: Uptime -->
+    <text y="54">
       <tspan class="key">Uptime</tspan>
       <tspan class="punct">....... </tspan>
       <tspan class="val">24/7 </tspan>
       <tspan class="comment">(Powered by Caffeine &amp; Clean Code)</tspan>
     </text>
 
-    <!-- Row 5: Shell -->
-    <text y="96">
+    <!-- Row 4: Shell -->
+    <text y="81">
       <tspan class="key">Shell</tspan>
       <tspan class="punct">........ </tspan>
       <tspan class="val">zsh 5.9 </tspan>
@@ -194,35 +187,35 @@
       <tspan class="val-accent">Python</tspan>
     </text>
 
-    <!-- Row 6: Frontend -->
-    <text y="120">
+    <!-- Row 5: Frontend -->
+    <text y="108">
       <tspan class="key">Frontend</tspan>
       <tspan class="punct">..... </tspan>
       <tspan class="val">React, Next.js, Tailwind CSS, HTML5/CSS3</tspan>
     </text>
 
-    <!-- Row 7: Backend -->
-    <text y="144">
+    <!-- Row 6: Backend -->
+    <text y="135">
       <tspan class="key">Backend</tspan>
       <tspan class="punct">...... </tspan>
       <tspan class="val">Node.js, Express, Python</tspan>
     </text>
 
-    <!-- Row 8: Databases -->
-    <text y="168">
+    <!-- Row 7: Databases -->
+    <text y="162">
       <tspan class="key">Databases</tspan>
       <tspan class="punct">.... </tspan>
       <tspan class="val">PostgreSQL, MySQL</tspan>
     </text>
 
-    <!-- Row 9: DevOps & Tools -->
-    <text y="192">
+    <!-- Row 8: DevOps & Tools -->
+    <text y="189">
       <tspan class="key">DevOps/Env</tspan>
       <tspan class="punct">... </tspan>
       <tspan class="val">Docker, Git, GitHub Actions, VS Code, Postman</tspan>
     </text>
 
-    <!-- Row 10: Status -->
+    <!-- Row 9: Status -->
     <text y="216">
       <tspan class="key">Status</tspan>
       <tspan class="punct">....... </tspan>

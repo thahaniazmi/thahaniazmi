@@ -8,9 +8,9 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=550&height=50&lines=Full+Stack+Software+Developer;Building+scalable+%26+modern+web+apps;TypeScript+%26+Python+Enthusiast;Turning+caffeine+into+clean+code" alt="Typing SVG" />
   </a>
 
-  <!-- Location & Philosophy -->
+  <!-- Philosophy -->
   <p align="center">
-    📍 <b>Sri Lanka</b> &nbsp; | &nbsp; ⚡ <i>Passionate about building scalable systems, fluid interfaces, and intuitive digital experiences.</i>
+    ⚡ <i>Passionate about building scalable systems, fluid interfaces, and intuitive digital experiences.</i>
   </p>
 
   <!-- Connect Socials (Dark Grey & Purple Dual-Tone) -->

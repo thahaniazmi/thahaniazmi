@@ -186,9 +186,9 @@
   </g>
 
   <!-- Window Header Right Terminal Badge -->
-  <g transform="translate(782, 20)">
-    <rect x="-30" y="-8" width="60" height="16" rx="8" fill="#20183B" stroke="#3A295C" stroke-width="0.8"/>
-    <text x="0" y="3.5" text-anchor="middle" class="mono" font-size="9" fill="#9D8EB3" font-weight="600" letter-spacing="0.5">zsh // v5.9</text>
+  <g transform="translate(772, 20)">
+    <rect x="-45" y="-9.5" width="90" height="19" rx="9.5" fill="#20183B" stroke="#3A295C" stroke-width="0.9"/>
+    <text x="0" y="3.2" text-anchor="middle" class="mono" font-size="9" fill="#9D8EB3" font-weight="600" letter-spacing="0.4">zsh // v5.9</text>
   </g>
 
   <!-- Header Separator Line -->

@@ -1,76 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 435" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient (Deep Tokyo Night Obsidian) -->
+    <!-- Background Canvas Gradient (Portfolio Obsidian / Cosmic Void #161616 - #202020) -->
     <linearGradient id="terminalBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0c0a17"/>
-      <stop offset="50%" stop-color="#120e24"/>
-      <stop offset="100%" stop-color="#17122e"/>
+      <stop offset="0%" stop-color="#161616"/>
+      <stop offset="50%" stop-color="#202020"/>
+      <stop offset="100%" stop-color="#19151F"/>
     </linearGradient>
 
-    <!-- Header Gradient -->
+    <!-- Header Gradient (Plum Surface #27222E to #33293D) -->
     <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#16112c"/>
-      <stop offset="100%" stop-color="#1a1435"/>
+      <stop offset="0%" stop-color="#27222E"/>
+      <stop offset="100%" stop-color="#33293D"/>
     </linearGradient>
 
-    <!-- Border Gradients -->
+    <!-- Border Gradients (Royal Violet #4B1C71 & Medium Orchid #7F4CA5) -->
     <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.85"/>
-      <stop offset="35%" stop-color="#3B2667" stop-opacity="0.45"/>
-      <stop offset="70%" stop-color="#7DCFFF" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.75"/>
+      <stop offset="0%" stop-color="#7F4CA5" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#4B1C71" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#F472B6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7F4CA5" stop-opacity="0.85"/>
     </linearGradient>
 
     <linearGradient id="innerDivider" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#3B2667" stop-opacity="0.1"/>
-      <stop offset="15%" stop-color="#8B5CF6" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#7DCFFF" stop-opacity="0.4"/>
-      <stop offset="85%" stop-color="#C084FC" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#3B2667" stop-opacity="0.1"/>
+      <stop offset="0%" stop-color="#4B1C71" stop-opacity="0.1"/>
+      <stop offset="25%" stop-color="#7F4CA5" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#F472B6" stop-opacity="0.45"/>
+      <stop offset="75%" stop-color="#7F4CA5" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#4B1C71" stop-opacity="0.1"/>
     </linearGradient>
 
-    <!-- Cyberpunk Accent Gradients -->
-    <linearGradient id="cyberNeonPurple" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#C084FC"/>
-      <stop offset="100%" stop-color="#7C3AED"/>
-    </linearGradient>
-
-    <linearGradient id="cyberCyan" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7DCFFF"/>
-      <stop offset="100%" stop-color="#38BDF8"/>
-    </linearGradient>
-
+    <!-- Isometric Cube Accents -->
     <linearGradient id="cyberCubeTop" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#9333EA"/>
-      <stop offset="50%" stop-color="#C084FC"/>
-      <stop offset="100%" stop-color="#E879F9"/>
+      <stop offset="0%" stop-color="#7F4CA5"/>
+      <stop offset="50%" stop-color="#C8A9DF"/>
+      <stop offset="100%" stop-color="#F472B6"/>
     </linearGradient>
 
     <linearGradient id="cyberCubeRight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7C3AED"/>
-      <stop offset="100%" stop-color="#4C1D95"/>
+      <stop offset="0%" stop-color="#4B1C71"/>
+      <stop offset="100%" stop-color="#27222E"/>
     </linearGradient>
 
     <linearGradient id="cyberCubeLeft" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#581C87"/>
-      <stop offset="100%" stop-color="#240E49"/>
+      <stop offset="0%" stop-color="#33293D"/>
+      <stop offset="100%" stop-color="#161616"/>
     </linearGradient>
 
+    <!-- Telemetry Meters -->
     <linearGradient id="meterCaffeine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8B5CF6"/>
-      <stop offset="60%" stop-color="#C084FC"/>
-      <stop offset="100%" stop-color="#7DCFFF"/>
+      <stop offset="0%" stop-color="#4B1C71"/>
+      <stop offset="50%" stop-color="#7F4CA5"/>
+      <stop offset="100%" stop-color="#F472B6"/>
     </linearGradient>
 
     <linearGradient id="meterPassion" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="0%" stop-color="#7F4CA5"/>
       <stop offset="50%" stop-color="#EC4899"/>
-      <stop offset="100%" stop-color="#E879F9"/>
+      <stop offset="100%" stop-color="#FF2E93"/>
     </linearGradient>
 
     <!-- Filters & Glows -->
     <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
@@ -84,9 +75,9 @@
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
-    <!-- Background Subtle Dot Matrix Pattern -->
-    <pattern id="dotGrid" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.8" fill="#584578" opacity="0.18"/>
+    <!-- Background Cosmic Grid Pattern -->
+    <pattern id="dotGrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#4B1C71" opacity="0.25"/>
     </pattern>
 
     <style>
@@ -94,36 +85,36 @@
         font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', ui-monospace, Menlo, Monaco, Consolas, monospace;
       }
       .lbl {
-        fill: #A78BFA;
+        fill: #C8A9DF;
         font-weight: 600;
         letter-spacing: 0.3px;
       }
       .sym {
-        fill: #6D5987;
+        fill: #7F4CA5;
         font-weight: 500;
       }
       .val-main {
-        fill: #F1F5F9;
+        fill: #EAEAEA;
         font-weight: 450;
       }
       .val-tag {
-        fill: #C084FC;
+        fill: #C8A9DF;
         font-weight: 500;
       }
       .val-highlight {
-        fill: #7DCFFF;
+        fill: #22D3EE;
         font-weight: 500;
       }
       .val-soft {
-        fill: #94A3B8;
+        fill: #B5B5B5;
         font-weight: 400;
       }
       .val-bullet {
-        fill: #4C3A6E;
+        fill: #7F4CA5;
         font-size: 10px;
       }
 
-      /* Bulletproof Opacity-based Animations */
+      /* Bulletproof Animations */
       @keyframes blinkCursor {
         0%, 49% { opacity: 1; }
         50%, 100% { opacity: 0; }
@@ -161,7 +152,7 @@
   <rect x="2" y="2" width="836" height="431" rx="14" fill="none" stroke="url(#cardBorder)" stroke-width="1.3"/>
 
   <!-- ==================== WINDOW TITLE BAR ==================== -->
-  <path d="M 2 16 Q 2 2 16 2 L 824 2 Q 838 2 838 16 L 838 38 L 2 38 Z" fill="url(#headerBg)" stroke="#261E3E" stroke-width="1"/>
+  <path d="M 2 16 Q 2 2 16 2 L 824 2 Q 838 2 838 16 L 838 38 L 2 38 Z" fill="url(#headerBg)" stroke="#4B1C71" stroke-width="0.8"/>
   
   <!-- Window Control Traffic Lights with Specular Depth -->
   <g transform="translate(22, 20)">
@@ -180,37 +171,37 @@
 
   <!-- Window Header Title -->
   <g transform="translate(420, 24)">
-    <text text-anchor="middle" class="mono" font-size="11.5" fill="#A594C0" font-weight="500" letter-spacing="0.5px">
-      <tspan fill="#7DCFFF">thahani</tspan><tspan fill="#64537E">@</tspan><tspan fill="#C084FC">cyberdeck</tspan><tspan fill="#64537E">:~ </tspan><tspan fill="#81729C">(fastfetch)</tspan>
+    <text text-anchor="middle" class="mono" font-size="11.5" fill="#C8A9DF" font-weight="500" letter-spacing="0.5px">
+      <tspan fill="#22D3EE">thahani</tspan><tspan fill="#7F4CA5">@</tspan><tspan fill="#EAEAEA">portfolio-deck</tspan><tspan fill="#7F4CA5">:~ </tspan><tspan fill="#B5B5B5">(fastfetch)</tspan>
     </text>
   </g>
 
   <!-- Window Header Right Terminal Badge -->
   <g transform="translate(772, 20)">
-    <rect x="-45" y="-9.5" width="90" height="19" rx="9.5" fill="#20183B" stroke="#3A295C" stroke-width="0.9"/>
-    <text x="0" y="3.2" text-anchor="middle" class="mono" font-size="9" fill="#9D8EB3" font-weight="600" letter-spacing="0.4">zsh // v5.9</text>
+    <rect x="-45" y="-9.5" width="90" height="19" rx="9.5" fill="#27222E" stroke="#4B1C71" stroke-width="0.9"/>
+    <text x="0" y="3.2" text-anchor="middle" class="mono" font-size="9" fill="#C8A9DF" font-weight="600" letter-spacing="0.4">zsh // v5.9</text>
   </g>
 
   <!-- Header Separator Line -->
-  <line x1="2" y1="38" x2="838" y2="38" stroke="#2A2045" stroke-width="1.2"/>
+  <line x1="2" y1="38" x2="838" y2="38" stroke="#4B1C71" stroke-width="1"/>
 
   <!-- ==================== LEFT COLUMN: HOLOGRAPHIC CYBER CORE ==================== -->
   <g transform="translate(145, 178)">
     <!-- Ambient Core Glow -->
     <polygon points="0,-100 87,-50 87,50 0,100 -87,50 -87,-50" 
-             fill="none" stroke="url(#cyberNeonPurple)" stroke-width="1.5" class="core-ambient" filter="url(#ambientHexGlow)"/>
+             fill="none" stroke="#7F4CA5" stroke-width="1.5" class="core-ambient" filter="url(#ambientHexGlow)"/>
 
     <!-- Outer Tech Hexagon -->
     <polygon points="0,-92 80,-46 80,46 0,92 -80,46 -80,-46" 
-             fill="#100C20" stroke="url(#cardBorder)" stroke-width="1.5"/>
+             fill="#27222E" stroke="url(#cardBorder)" stroke-width="1.5"/>
 
     <!-- Mid Circuit Track with Dashes -->
     <polygon points="0,-72 63,-36 63,36 0,72 -63,36 -63,-36" 
-             fill="none" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.6"/>
+             fill="none" stroke="#4B1C71" stroke-width="1.2" stroke-dasharray="5,4" opacity="0.6"/>
 
     <!-- Orbiting Holographic Rings -->
-    <ellipse cx="0" cy="0" rx="66" ry="24" fill="none" stroke="url(#cyberCyan)" stroke-width="1" opacity="0.4" transform="rotate(-25)"/>
-    <ellipse cx="0" cy="0" rx="66" ry="24" fill="none" stroke="#E879F9" stroke-width="1" opacity="0.3" transform="rotate(35)"/>
+    <ellipse cx="0" cy="0" rx="66" ry="24" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.4" transform="rotate(-25)"/>
+    <ellipse cx="0" cy="0" rx="66" ry="24" fill="none" stroke="#F472B6" stroke-width="1" opacity="0.35" transform="rotate(35)"/>
 
     <!-- ==================== 3D ISOMETRIC CYBER GEM ==================== -->
     <!-- Top Facet -->
@@ -228,29 +219,28 @@
              fill="url(#cyberCubeLeft)" opacity="0.95"/>
 
     <!-- Edge Chamfers & Neon Highlights -->
-    <line x1="0" y1="0" x2="0" y2="48" stroke="#7DCFFF" stroke-width="1.5" opacity="0.8" filter="url(#subtleGlow)"/>
-    <line x1="0" y1="0" x2="42" y2="-24" stroke="#C084FC" stroke-width="1" opacity="0.7"/>
-    <line x1="0" y1="0" x2="-42" y2="-24" stroke="#C084FC" stroke-width="1" opacity="0.7"/>
+    <line x1="0" y1="0" x2="0" y2="48" stroke="#F472B6" stroke-width="1.5" opacity="0.85" filter="url(#subtleGlow)"/>
+    <line x1="0" y1="0" x2="42" y2="-24" stroke="#7F4CA5" stroke-width="1" opacity="0.7"/>
+    <line x1="0" y1="0" x2="-42" y2="-24" stroke="#7F4CA5" stroke-width="1" opacity="0.7"/>
 
     <!-- Hexagon Outer Circuit Nodes -->
-    <circle cx="0" cy="-92" r="3" fill="#7DCFFF" filter="url(#subtleGlow)"/>
-    <circle cx="80" cy="-46" r="2.8" fill="#C084FC"/>
-    <circle cx="80" cy="46" r="2.8" fill="#A78BFA"/>
-    <circle cx="0" cy="92" r="3" fill="#7DCFFF" filter="url(#subtleGlow)"/>
-    <circle cx="-80" cy="46" r="2.8" fill="#A78BFA"/>
-    <circle cx="-80" cy="-46" r="2.8" fill="#C084FC"/>
+    <circle cx="0" cy="-92" r="3" fill="#22D3EE" filter="url(#subtleGlow)"/>
+    <circle cx="80" cy="-46" r="2.8" fill="#F472B6"/>
+    <circle cx="80" cy="46" r="2.8" fill="#7F4CA5"/>
+    <circle cx="0" cy="92" r="3" fill="#22D3EE" filter="url(#subtleGlow)"/>
+    <circle cx="-80" cy="46" r="2.8" fill="#7F4CA5"/>
+    <circle cx="-80" cy="-46" r="2.8" fill="#F472B6"/>
 
     <!-- Center Cyber Pulse Dot -->
     <circle cx="0" cy="0" r="3.5" fill="#FFFFFF" filter="url(#neonGlow)"/>
   </g>
 
-  <!-- Left Bottom Badges -->
-  <!-- Status Badge (Centered beneath core, balanced padding & spacing) -->
+  <!-- Left Bottom Status Badge -->
   <g transform="translate(145, 355)">
-    <rect x="-77" y="-13" width="154" height="26" rx="13" fill="#16112a" stroke="#372654" stroke-width="1"/>
+    <rect x="-82" y="-13" width="164" height="26" rx="13" fill="#27222E" stroke="#4B1C71" stroke-width="1"/>
     <!-- Glowing Online Indicator Dot -->
-    <circle cx="-55" cy="0" r="3.5" fill="#10B981" filter="url(#neonGlow)" class="pulse-dot"/>
-    <text x="-40" y="3.8" class="mono" font-size="9.5" fill="#34D399" font-weight="700" letter-spacing="1.2">SYSTEM // ONLINE</text>
+    <circle cx="-62" cy="0" r="3.5" fill="#34D399" filter="url(#neonGlow)" class="pulse-dot"/>
+    <text x="-48" y="3.8" class="mono" font-size="9.5" fill="#EAEAEA" font-weight="700" letter-spacing="1.2">SYSTEM // ONLINE</text>
   </g>
 
   <!-- ==================== VERTICAL COLUMN DIVIDER ==================== -->
@@ -259,11 +249,11 @@
   <!-- ==================== RIGHT COLUMN: FASTFETCH TERMINAL ==================== -->
   <!-- Command Prompt Line -->
   <g transform="translate(306, 68)">
-    <text class="mono" font-size="12.5"><tspan fill="#C084FC" font-weight="700">thahani</tspan><tspan fill="#64537E">@</tspan><tspan fill="#7DCFFF" font-weight="700">cyberdeck</tspan><tspan fill="#584578">:</tspan><tspan fill="#E879F9">~</tspan><tspan fill="#7C3AED" font-weight="700">$ </tspan><tspan fill="#F8FAFC" font-weight="600">fastfetch --profile</tspan><tspan fill="#7DCFFF" class="cursor-blink" font-weight="700"> █</tspan></text>
+    <text class="mono" font-size="12.5"><tspan fill="#7F4CA5" font-weight="700">thahani</tspan><tspan fill="#4B1C71">@</tspan><tspan fill="#22D3EE" font-weight="700">portfolio</tspan><tspan fill="#4B1C71">:</tspan><tspan fill="#F472B6">~</tspan><tspan fill="#7F4CA5" font-weight="700">$ </tspan><tspan fill="#EAEAEA" font-weight="600">fastfetch --profile</tspan><tspan fill="#22D3EE" class="cursor-blink" font-weight="700"> █</tspan></text>
   </g>
 
   <!-- Command Divider Line -->
-  <line x1="306" y1="82" x2="812" y2="82" stroke="#2D2149" stroke-width="1"/>
+  <line x1="306" y1="82" x2="812" y2="82" stroke="#4B1C71" stroke-width="0.8" opacity="0.6"/>
 
   <!-- ==================== SYSTEM SPECIFICATIONS (FIXED TABULAR GRID) ==================== -->
   <g class="mono" font-size="11.8">
@@ -273,7 +263,7 @@
       <text class="sym" x="94" y="0">➜</text>
       <text x="116" y="0">
         <tspan class="val-main">DevOS v3.8 </tspan>
-        <tspan class="val-tag" font-size="11">(Tokyo Night Pro Edition)</tspan>
+        <tspan class="val-tag" font-size="11">(Cosmic Violet Edition)</tspan>
       </text>
     </g>
 
@@ -281,7 +271,7 @@
     <g transform="translate(306, 132)">
       <text class="lbl" x="0" y="0">Host</text>
       <text class="sym" x="94" y="0">➜</text>
-      <text class="val-main" x="116" y="0">Full-Stack Developer &amp; Software Engineer</text>
+      <text class="val-main" x="116" y="0">Full-Stack Developer &amp; Modern Web Builder</text>
     </g>
 
     <!-- Row 3: Uptime -->
@@ -296,23 +286,23 @@
 
     <!-- Row 4: Shell & Core -->
     <g transform="translate(306, 182)">
-      <text class="lbl" x="0" y="0">Shell</text>
+      <text class="lbl" x="0" y="0">Core</text>
       <text class="sym" x="94" y="0">➜</text>
-      <text x="116" y="0"><tspan class="val-main">zsh 5.9</tspan> <tspan class="sym">/</tspan> <tspan class="val-highlight">TypeScript</tspan> <tspan class="sym">/</tspan> <tspan class="val-tag">Python</tspan></text>
+      <text x="116" y="0"><tspan class="val-main">TypeScript</tspan> <tspan class="sym">/</tspan> <tspan class="val-highlight">React 19</tspan> <tspan class="sym">/</tspan> <tspan class="val-tag">Python</tspan> <tspan class="sym">/</tspan> <tspan class="val-main">C#</tspan></text>
     </g>
 
     <!-- Row 5: Frontend -->
     <g transform="translate(306, 207)">
       <text class="lbl" x="0" y="0">Frontend</text>
       <text class="sym" x="94" y="0">➜</text>
-      <text x="116" y="0"><tspan class="val-main">React</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Next.js</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Tailwind CSS</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-soft">HTML5/CSS3</tspan></text>
+      <text x="116" y="0"><tspan class="val-main">React</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Next.js</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Tailwind CSS</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-soft">Vite</tspan></text>
     </g>
 
     <!-- Row 6: Backend -->
     <g transform="translate(306, 232)">
       <text class="lbl" x="0" y="0">Backend</text>
       <text class="sym" x="94" y="0">➜</text>
-      <text x="116" y="0"><tspan class="val-main">Node.js</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Express</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Python</tspan></text>
+      <text x="116" y="0"><tspan class="val-main">Node.js</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Python</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">C# (.NET)</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-soft">REST APIs</tspan></text>
     </g>
 
     <!-- Row 7: Databases -->
@@ -322,38 +312,38 @@
       <text x="116" y="0"><tspan class="val-main">PostgreSQL</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">MySQL</tspan></text>
     </g>
 
-    <!-- Row 8: DevOps & Tools -->
+    <!-- Row 8: DevOps & Cloud -->
     <g transform="translate(306, 282)">
-      <text class="lbl" x="0" y="0">DevOps/Env</text>
+      <text class="lbl" x="0" y="0">DevOps/Cloud</text>
       <text class="sym" x="94" y="0">➜</text>
-      <text x="116" y="0"><tspan class="val-main">Docker</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Git &amp; GitHub Actions</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-soft">VS Code, Postman</tspan></text>
+      <text x="116" y="0"><tspan class="val-main">Cloudflare</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Docker</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-main">Git &amp; Actions</tspan> <tspan class="val-bullet">●</tspan> <tspan class="val-soft">VS Code</tspan></text>
     </g>
 
     <!-- Row 9: Status -->
     <g transform="translate(306, 307)">
       <text class="lbl" x="0" y="0">Status</text>
       <text class="sym" x="94" y="0">➜</text>
-      <text x="116" y="0"><tspan fill="#34D399">● </tspan><tspan fill="#C084FC" font-weight="500">Available for innovative builds &amp; open source</tspan></text>
+      <text x="116" y="0"><tspan fill="#34D399">● </tspan><tspan fill="#F472B6" font-weight="500">Available for bespoke web builds &amp; creative projects</tspan></text>
     </g>
   </g>
 
   <!-- Bottom Divider Line -->
-  <line x1="306" y1="334" x2="812" y2="334" stroke="#2D2149" stroke-width="1"/>
+  <line x1="306" y1="334" x2="812" y2="334" stroke="#4B1C71" stroke-width="0.8" opacity="0.6"/>
 
   <!-- ==================== BOTTOM WIDGET: TELEMETRY METERS ==================== -->
   <g transform="translate(306, 355)">
     <g transform="translate(64, 0)">
       <!-- Caffeine Row -->
-      <text class="mono" font-size="10" fill="#9CA3AF" font-weight="600" x="0" y="9">CAFFEINE</text>
-      <rect x="75" y="0" width="260" height="11" rx="5.5" fill="#18122B" stroke="#362552" stroke-width="0.8"/>
+      <text class="mono" font-size="10" fill="#B5B5B5" font-weight="600" x="0" y="9">CAFFEINE</text>
+      <rect x="75" y="0" width="260" height="11" rx="5.5" fill="#27222E" stroke="#4B1C71" stroke-width="0.8"/>
       <rect x="76.5" y="1.5" width="254" height="8" rx="4" fill="url(#meterCaffeine)"/>
-      <text class="mono" font-size="10" fill="#7DCFFF" font-weight="700" x="348" y="9">99%</text>
+      <text class="mono" font-size="10" fill="#22D3EE" font-weight="700" x="348" y="9">99%</text>
 
       <!-- Passion Row -->
-      <text class="mono" font-size="10" fill="#9CA3AF" font-weight="600" x="0" y="27">PASSION</text>
-      <rect x="75" y="18" width="260" height="11" rx="5.5" fill="#18122B" stroke="#362552" stroke-width="0.8"/>
+      <text class="mono" font-size="10" fill="#B5B5B5" font-weight="600" x="0" y="27">PASSION</text>
+      <rect x="75" y="18" width="260" height="11" rx="5.5" fill="#27222E" stroke="#4B1C71" stroke-width="0.8"/>
       <rect x="76.5" y="19.5" width="257" height="8" rx="4" fill="url(#meterPassion)"/>
-      <text class="mono" font-size="10" fill="#F43F5E" font-weight="700" x="348" y="27">100%</text>
+      <text class="mono" font-size="10" fill="#F472B6" font-weight="700" x="348" y="27">100%</text>
     </g>
   </g>
 </svg>

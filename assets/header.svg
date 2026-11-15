@@ -1,390 +1,397 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 270" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="100%" height="100%">
   <defs>
-    <!-- Background Canvas Gradient (Portfolio Obsidian / Cosmic Void #161616 - #202020) -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#161616"/>
-      <stop offset="45%" stop-color="#202020"/>
-      <stop offset="100%" stop-color="#19151F"/>
+    <!-- Background Cosmic Canvas Gradient -->
+    <linearGradient id="cosmicBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120E18"/>
+      <stop offset="45%" stop-color="#191322"/>
+      <stop offset="85%" stop-color="#161120"/>
+      <stop offset="100%" stop-color="#100C16"/>
     </linearGradient>
 
-    <!-- Structural Card Border Gradient (Royal Violet #4B1C71 to Medium Orchid #7F4CA5 & Soft Rose #F472B6) -->
-    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7F4CA5" stop-opacity="0.9"/>
-      <stop offset="35%" stop-color="#4B1C71" stop-opacity="0.55"/>
-      <stop offset="70%" stop-color="#F472B6" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#7F4CA5" stop-opacity="0.85"/>
+    <!-- Structural Outer Border Gradient -->
+    <linearGradient id="outerBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7F4CA5" stop-opacity="0.5"/>
+      <stop offset="30%" stop-color="#4B1C71" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#F472B6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7F4CA5" stop-opacity="0.5"/>
     </linearGradient>
 
-    <!-- Ambient Core Cosmic Nebula Glow (Radial Falloff: Royal Violet -> Medium Orchid -> Neon Pink) -->
-    <radialGradient id="nebulaGlow" cx="50%" cy="45%" r="60%">
-      <stop offset="0%" stop-color="#4B1C71" stop-opacity="0.45"/>
-      <stop offset="30%" stop-color="#7F4CA5" stop-opacity="0.22"/>
-      <stop offset="60%" stop-color="#EC4899" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#161616" stop-opacity="0"/>
+    <!-- Ambient Core Cosmic Nebula Glow (Radial Falloff) -->
+    <radialGradient id="nebulaCore" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#4B1C71" stop-opacity="0.36"/>
+      <stop offset="35%" stop-color="#7F4CA5" stop-opacity="0.18"/>
+      <stop offset="65%" stop-color="#EC4899" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#120E18" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Dynamic Shimmering Chrome Purple Text Gradient for AZMI -->
-    <linearGradient id="nameAzmiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="25%" stop-color="#EAEAEA"/>
-      <stop offset="55%" stop-color="#C8A9DF"/>
-      <stop offset="85%" stop-color="#7F4CA5"/>
-      <stop offset="100%" stop-color="#4B1C71"/>
-    </linearGradient>
+    <!-- Top-Left Pink Starlight Ambient Radiance -->
+    <radialGradient id="pinkAmbientGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F472B6" stop-opacity="0.35"/>
+      <stop offset="40%" stop-color="#DB2777" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#120E18" stop-opacity="0"/>
+    </radialGradient>
 
-    <!-- Chrome Violet Gradient for 'modern websites.' Tagline -->
-    <linearGradient id="taglineChrome" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FAF5FF"/>
-      <stop offset="35%" stop-color="#D8B4FE"/>
-      <stop offset="75%" stop-color="#A855F7"/>
+    <!-- Top-Right Violet Starlight Ambient Radiance -->
+    <radialGradient id="violetAmbientGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7F4CA5" stop-opacity="0.38"/>
+      <stop offset="45%" stop-color="#4B1C71" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#120E18" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Liquid Chrome Violet Gradient for 'modern websites.' -->
+    <linearGradient id="modernWebsitesGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="20%" stop-color="#FAF5FF"/>
+      <stop offset="48%" stop-color="#D8B4FE"/>
+      <stop offset="78%" stop-color="#A855F7"/>
       <stop offset="100%" stop-color="#7F4CA5"/>
     </linearGradient>
 
-    <!-- Specular Light Beam Gradient for Name Shimmer Sweep -->
-    <linearGradient id="shimmerBeamGrad" x1="0%" y1="0%" x2="100%" y2="60%">
-      <stop offset="0%" stop-color="#F472B6" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#C8A9DF" stop-opacity="0.3"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
-      <stop offset="75%" stop-color="#7F4CA5" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#7F4CA5" stop-opacity="0"/>
+    <!-- Primary CTA Button Gradient ('Start a project →') -->
+    <linearGradient id="btnPrimaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6B21A8"/>
+      <stop offset="50%" stop-color="#7F4CA5"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
     </linearGradient>
 
-    <!-- Geometric Clip for Name Shimmer Sweep -->
-    <clipPath id="nameClip">
-      <g transform="translate(430, 96)" text-anchor="middle">
-        <text class="display-title" font-size="38" font-weight="900" letter-spacing="5px">
-          THAHANI AZMI
-        </text>
-      </g>
-    </clipPath>
+    <!-- Secondary CTA Button Gradient ('Explore My Works') -->
+    <linearGradient id="btnSecondaryBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D2338" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1C1626" stop-opacity="0.85"/>
+    </linearGradient>
 
-    <!-- Radiant Underline Beam Gradient -->
-    <linearGradient id="beamGrad" x1="-220" y1="0" x2="220" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#4B1C71" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#7F4CA5" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#F472B6" stop-opacity="0.95"/>
-      <stop offset="80%" stop-color="#7F4CA5" stop-opacity="0.6"/>
+    <!-- Jellyfish Gradients (From Portfolio JellyfishLogo.jsx) -->
+    <linearGradient id="jfBellGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#F472B6"/>
+      <stop offset="70%" stop-color="#7F4CA5"/>
+      <stop offset="100%" stop-color="#4B1C71"/>
+    </linearGradient>
+
+    <linearGradient id="jfBellFill" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#7F4CA5" stop-opacity="0.88"/>
+      <stop offset="60%" stop-color="#4B1C71" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#202020" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <radialGradient id="jfCoreGrad" cx="50%" cy="38%" r="52%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#FCE7F3"/>
+      <stop offset="55%" stop-color="#EC4899"/>
+      <stop offset="80%" stop-color="#7F4CA5"/>
       <stop offset="100%" stop-color="#4B1C71" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="jfTentCyan" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.95"/>
+      <stop offset="65%" stop-color="#A855F7" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.25"/>
     </linearGradient>
 
-    <!-- Top Pill Badge Surface Gradient (Plum Surface #27222E with subtle glass highlight) -->
-    <linearGradient id="pillBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#33293D" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#27222E" stop-opacity="0.85"/>
+    <linearGradient id="jfTentMag" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.95"/>
+      <stop offset="65%" stop-color="#C084FC" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.25"/>
     </linearGradient>
 
-    <linearGradient id="pillBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7F4CA5" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#F472B6" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#4B1C71" stop-opacity="0.6"/>
-    </linearGradient>
+    <!-- Starburst Ray Glow Filters -->
+    <filter id="glowPink" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
 
-    <!-- Filters & Glows -->
-    <filter id="neonGlow" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+    <filter id="glowPurple" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="haloBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
 
     <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="1.8" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-
-    <filter id="ambientLight" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="14" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-
-    <!-- Starburst Ray Glow Filters -->
-    <filter id="starGlowPink" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
 
-    <filter id="starGlowPurple" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="1.2" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    <filter id="btnShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#7F4CA5" flood-opacity="0.4"/>
     </filter>
 
-    <!-- Cosmic Grid Pattern (Subtle Royal Violet Lines #4B1C71) -->
-    <pattern id="cosmicGrid" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#4B1C71" stroke-width="0.75" opacity="0.18"/>
-      <circle cx="0" cy="0" r="0.8" fill="#7F4CA5" opacity="0.35"/>
+    <!-- Cosmic Grid Pattern (40x40 subtle lines) -->
+    <pattern id="cosmicGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#4B1C71" stroke-width="0.6" opacity="0.14"/>
     </pattern>
 
-    <!-- Radial Mask for Grid (softly concentrates in the center, fades out towards edges) -->
-    <radialGradient id="gridMaskGrad" cx="50%" cy="40%" r="55%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.75"/>
-      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+    <!-- Radial Mask for Grid (Diffuses grid out to nothingness at boundaries) -->
+    <radialGradient id="gridMaskGrad" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
     <mask id="gridMask">
-      <rect x="0" y="0" width="860" height="270" fill="url(#gridMaskGrad)"/>
+      <rect x="0" y="0" width="1000" height="480" fill="url(#gridMaskGrad)"/>
     </mask>
 
-    <!-- ==================== REUSABLE COSMIC STARBURSTS (From Portfolio Hero) ==================== -->
-    <!-- Pink Cosmic Starburst (#F472B6) -->
-    <g id="starburstPink">
-      <!-- Outer Starlight Halo -->
-      <circle cx="50" cy="50" r="42" fill="#F472B6" opacity="0.18" filter="url(#ambientLight)"/>
-      <!-- Diagonal 4 Secondary Rays -->
-      <path d="M50 20 C50 38 38 50 20 50 C38 50 50 62 50 80 C50 62 62 50 80 50 C62 50 50 38 50 20 Z"
-            fill="#F472B6" opacity="0.6" transform="rotate(45 50 50)" filter="url(#starGlowPink)"/>
-      <!-- Primary 4 Long Rays -->
-      <path d="M50 4 C49 34 34 49 4 50 C34 51 49 66 50 96 C51 66 66 51 96 50 C66 49 51 34 50 4 Z"
-            fill="#FCE7F3" opacity="0.9" filter="url(#starGlowPink)"/>
-      <!-- Inner Brilliant Core Nucleus -->
-      <circle cx="50" cy="50" r="4" fill="#FFFFFF" opacity="0.95"/>
-      <circle cx="50" cy="50" r="1.8" fill="#FFFFFF"/>
-    </g>
-
-    <!-- Purple Cosmic Starburst (#7F4CA5 / #C8A9DF) -->
-    <g id="starburstPurple">
-      <!-- Outer Starlight Halo -->
-      <circle cx="50" cy="50" r="42" fill="#7F4CA5" opacity="0.22" filter="url(#ambientLight)"/>
-      <!-- Diagonal 4 Secondary Rays -->
-      <path d="M50 20 C50 38 38 50 20 50 C38 50 50 62 50 80 C50 62 62 50 80 50 C62 50 50 38 50 20 Z"
-            fill="#9B64C4" opacity="0.65" transform="rotate(45 50 50)" filter="url(#starGlowPurple)"/>
-      <!-- Primary 4 Long Rays -->
-      <path d="M50 4 C49 34 34 49 4 50 C34 51 49 66 50 96 C51 66 66 51 96 50 C66 49 51 34 50 4 Z"
-            fill="#E4D5F0" opacity="0.92" filter="url(#starGlowPurple)"/>
-      <!-- Inner Brilliant Core Nucleus -->
-      <circle cx="50" cy="50" r="3.8" fill="#FFFFFF" opacity="0.95"/>
-      <circle cx="50" cy="50" r="1.6" fill="#FFFFFF"/>
-    </g>
-
-    <!-- Micro Star Particle -->
+    <!-- Micro Starlight Point -->
     <g id="microStar">
-      <polygon points="0,-4 1.2,-1.2 4,0 1.2,1.2 0,4 -1.2,1.2 -4,0 -1.2,-1.2" fill="#FFFFFF" opacity="0.9"/>
+      <polygon points="0,-4 1.2,-1.2 4,0 1.2,1.2 0,4 -1.2,1.2 -4,0 -1.2,-1.2" fill="#FFFFFF"/>
     </g>
 
     <style>
-      .mono {
-        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', ui-monospace, Menlo, Monaco, Consolas, monospace;
+      .display-sans {
+        font-family: 'Plus Jakarta Sans', 'Syne', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       }
-      .display-title {
-        font-family: 'Syne', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      .body-sans {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       }
-      .sans-sub {
-        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
+      .mono-tech {
+        font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', ui-monospace, Menlo, Consolas, monospace;
       }
 
-      /* Bulletproof CSS Animations */
-      @keyframes pulseOnlineDot {
-        0%, 100% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.35; transform: scale(0.85); }
+      /* Subtle Ambient CSS Animations */
+      @keyframes starBreathe {
+        0%, 100% { opacity: 0.75; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.08); }
       }
-      .pulse-dot {
-        animation: pulseOnlineDot 2s infinite ease-in-out;
+      .star-glow-1 {
+        animation: starBreathe 4s infinite ease-in-out;
+        transform-origin: center;
+      }
+      .star-glow-2 {
+        animation: starBreathe 5.5s infinite ease-in-out;
+        animation-delay: 1.2s;
         transform-origin: center;
       }
 
-      @keyframes beamShimmer {
-        0%, 100% { opacity: 0.65; }
-        50% { opacity: 1; }
+      @keyframes twinkleParticle {
+        0%, 100% { opacity: 0.25; transform: scale(0.7); }
+        50% { opacity: 0.95; transform: scale(1.25); }
       }
-      .beam-shimmer {
-        animation: beamShimmer 3.2s infinite ease-in-out;
+      .twinkle-a {
+        animation: twinkleParticle 3.2s infinite ease-in-out;
       }
-
-      @keyframes nameGlowBreathe {
-        0%, 100% { opacity: 0.25; }
-        50% { opacity: 0.65; }
-      }
-      .name-glow-pulse {
-        animation: nameGlowBreathe 3.5s infinite ease-in-out;
-      }
-
-      @keyframes starFloatSoft {
-        0%, 100% { transform: translateY(0px) rotate(0deg); }
-        50% { transform: translateY(-4px) rotate(6deg); }
-      }
-      .star-float-1 {
-        animation: starFloatSoft 5s infinite ease-in-out;
-      }
-      .star-float-2 {
-        animation: starFloatSoft 6.5s infinite ease-in-out;
-        animation-delay: 1s;
-      }
-
-      @keyframes twinkleFade {
-        0%, 100% { opacity: 0.3; transform: scale(0.8); }
-        50% { opacity: 0.95; transform: scale(1.2); }
-      }
-      .twinkle-1 {
-        animation: twinkleFade 3s infinite ease-in-out;
-      }
-      .twinkle-2 {
-        animation: twinkleFade 4s infinite ease-in-out;
+      .twinkle-b {
+        animation: twinkleParticle 4.5s infinite ease-in-out;
         animation-delay: 1.5s;
+      }
+      .twinkle-c {
+        animation: twinkleParticle 3.8s infinite ease-in-out;
+        animation-delay: 0.8s;
       }
     </style>
   </defs>
 
-  <!-- ==================== OUTER SHELL ==================== -->
-  <!-- Card Background Canvas (#161616 to #202020) -->
-  <rect x="2" y="2" width="856" height="266" rx="16" fill="url(#bgGrad)"/>
+  <!-- ==================== BASE CANVAS & ATMOSPHERE ==================== -->
+  <!-- Dark Obsidian Cosmic Background -->
+  <rect x="2" y="2" width="996" height="476" rx="16" fill="url(#cosmicBg)"/>
 
-  <!-- High-Tech Cosmic Grid with Smooth Radial Vignette Mask -->
-  <rect x="2" y="2" width="856" height="266" rx="16" fill="url(#cosmicGrid)" mask="url(#gridMask)"/>
+  <!-- Faint Cosmic Grid Overlay -->
+  <rect x="2" y="2" width="996" height="476" rx="16" fill="url(#cosmicGrid)" mask="url(#gridMask)"/>
 
-  <!-- Smooth Ambient Cosmic Nebula Glow -->
-  <ellipse cx="430" cy="115" rx="360" ry="95" fill="url(#nebulaGlow)"/>
+  <!-- Large Central Purple Nebula Glow -->
+  <ellipse cx="500" cy="230" rx="420" ry="170" fill="url(#nebulaCore)"/>
 
-  <!-- Outer Structural Border (Royal Violet & Medium Orchid) -->
-  <rect x="2" y="2" width="856" height="266" rx="16" fill="none" stroke="url(#cardBorder)" stroke-width="1.4"/>
+  <!-- Ambient Light Halos behind floating stars -->
+  <circle cx="58" cy="120" r="100" fill="url(#pinkAmbientGlow)"/>
+  <circle cx="900" cy="185" r="120" fill="url(#violetAmbientGlow)"/>
 
-  <!-- ==================== FLOATING COSMIC STARBURSTS (From Hero Screenshot) ==================== -->
-  <!-- Starburst 1 (Top Left): Soft Rose (#F472B6) -->
-  <g transform="translate(42, 30) scale(0.48)" class="star-float-1">
-    <use href="#starburstPink"/>
+  <!-- Outer Card Frame (Very subtle edge sheen) -->
+  <rect x="2" y="2" width="996" height="476" rx="16" fill="none" stroke="url(#outerBorderGrad)" stroke-width="1.2"/>
+
+  <!-- ==================== TOP NAVIGATION BAR (Exact Replica of Portfolio Header) ==================== -->
+  <g transform="translate(0, 32)">
+    <!-- Brand Logo: Jellyfish + "Thahani Azmi ✦" -->
+    <g transform="translate(42, 0)">
+      <!-- Mini Bioluminescent Jellyfish -->
+      <g transform="translate(0, -14) scale(0.24)">
+        <!-- Tentacles -->
+        <path d="M 25 49 C 20 59, 28 69, 22 79 C 17 87, 23 91, 19 96" stroke="url(#jfTentCyan)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+        <path d="M 35 51 C 30 61, 39 71, 33 81 C 28 88, 34 92, 30 98" stroke="url(#jfTentMag)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+        <path d="M 65 51 C 70 61, 61 71, 67 81 C 72 88, 66 92, 70 98" stroke="url(#jfTentCyan)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9"/>
+        <path d="M 75 49 C 80 59, 72 69, 78 79 C 83 87, 77 91, 81 96" stroke="url(#jfTentMag)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+        <!-- Oral Arms -->
+        <path d="M 46 50 C 42 59, 52 66, 45 77 C 41 84, 47 88, 44 94" stroke="url(#jfTentCyan)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.95"/>
+        <path d="M 54 50 C 58 59, 48 66, 55 77 C 59 84, 53 88, 56 94" stroke="url(#jfTentMag)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.95"/>
+        <!-- Bell -->
+        <path d="M 18 48 C 18 27, 32 13, 50 13 C 68 13, 82 27, 82 48 C 76 53, 71 49, 66 52 C 60 55, 56 49, 50 51 C 44 49, 40 55, 34 52 C 29 49, 24 53, 18 48 Z" fill="url(#jfBellFill)" stroke="url(#jfBellGrad)" stroke-width="2.4" stroke-linejoin="round"/>
+        <!-- Glowing Core -->
+        <ellipse cx="50" cy="36" rx="9" ry="11" fill="url(#jfCoreGrad)" opacity="0.95"/>
+        <circle cx="50" cy="40" r="2.6" fill="#FAF5FF" opacity="0.95"/>
+      </g>
+
+      <!-- Brand Text -->
+      <text x="32" y="3.5" class="display-sans" font-size="15" font-weight="700" fill="#FFFFFF" letter-spacing="-0.2px">
+        Thahani Azmi <tspan fill="#F472B6" font-size="12">&#10022;</tspan>
+      </text>
+    </g>
+
+    <!-- Top-Right Navigation Links -->
+    <g transform="translate(958, 2.5)" text-anchor="end" class="display-sans" font-size="11.5" font-weight="500" fill="#C8A9DF">
+      <text x="0" y="0">
+        <tspan fill="#EAEAEA" font-weight="600">What I Do</tspan>
+        <tspan fill="#584578">&#160; &#160; </tspan>
+        <tspan fill="#C8A9DF">My Works</tspan>
+        <tspan fill="#584578">&#160; &#160; </tspan>
+        <tspan fill="#C8A9DF">Offerings</tspan>
+        <tspan fill="#584578">&#160; &#160; </tspan>
+        <tspan fill="#C8A9DF">Skills</tspan>
+        <tspan fill="#584578">&#160; &#160; </tspan>
+        <tspan fill="#C8A9DF">About</tspan>
+        <tspan fill="#584578">&#160; &#160; </tspan>
+        <tspan fill="#C8A9DF">Process</tspan>
+        <tspan fill="#584578">&#160; &#160; </tspan>
+        <tspan fill="#C8A9DF">Contact</tspan>
+      </text>
+    </g>
   </g>
 
-  <!-- Starburst 2 (Top Right): Medium Orchid (#7F4CA5) -->
-  <g transform="translate(768, 38) scale(0.52)" class="star-float-2">
-    <use href="#starburstPurple"/>
+  <!-- ==================== LARGE FLOATING COSMIC STARBURSTS ==================== -->
+  <!-- Left Big Starburst (Soft Rose #F472B6) -->
+  <g transform="translate(58, 120)" class="star-glow-1">
+    <!-- Outer Halo -->
+    <circle cx="0" cy="0" r="48" fill="#F472B6" opacity="0.22" filter="url(#glowPink)"/>
+    <!-- 4 Diagonal Secondary Rays -->
+    <g transform="rotate(45)">
+      <path d="M 0 -24 C 0 -10, -8 0, -20 0 C -8 0, 0 10, 0 24 C 0 10, 8 0, 20 0 C 8 0, 0 -10, 0 -24 Z" fill="#F472B6" opacity="0.65" filter="url(#glowPink)"/>
+    </g>
+    <!-- 4 Primary Long Rays -->
+    <path d="M 0 -46 C -1 -12, -12 -1, -46 0 C -12 1, -1 12, 0 46 C 1 12, 12 1, 46 0 C 12 -1, 1 -12, 0 -46 Z" fill="#FCE7F3" opacity="0.95" filter="url(#glowPink)"/>
+    <!-- Core Nucleus -->
+    <circle cx="0" cy="0" r="4.2" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
   </g>
 
-  <!-- Twinkling Ambient Micro Sparkles Scattered in Space -->
-  <g transform="translate(135, 115) scale(0.8)" class="twinkle-1">
+  <!-- Right Big Starburst (Medium Orchid #7F4CA5 / Muted Lavender #C8A9DF) -->
+  <g transform="translate(900, 185)" class="star-glow-2">
+    <!-- Outer Halo -->
+    <circle cx="0" cy="0" r="50" fill="#7F4CA5" opacity="0.25" filter="url(#glowPurple)"/>
+    <!-- 4 Diagonal Secondary Rays -->
+    <g transform="rotate(45)">
+      <path d="M 0 -26 C 0 -11, -9 0, -22 0 C -9 0, 0 11, 0 26 C 0 11, 9 0, 22 0 C 9 0, 0 -11, 0 -26 Z" fill="#9B64C4" opacity="0.68" filter="url(#glowPurple)"/>
+    </g>
+    <!-- 4 Primary Long Rays -->
+    <path d="M 0 -48 C -1 -13, -13 -1, -48 0 C -13 1, -1 13, 0 48 C 1 13, 13 1, 48 0 C 13 -1, 1 -13, 0 -48 Z" fill="#E4D5F0" opacity="0.95" filter="url(#glowPurple)"/>
+    <!-- Core Nucleus -->
+    <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="1.8" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Micro Twinkling Starlight Points in Space -->
+  <g transform="translate(240, 95) scale(0.85)" class="twinkle-a">
     <use href="#microStar" fill="#F472B6"/>
   </g>
-  <g transform="translate(735, 125) scale(0.7)" class="twinkle-2">
+  <g transform="translate(790, 105) scale(0.9)" class="twinkle-b">
     <use href="#microStar" fill="#C8A9DF"/>
   </g>
-  <g transform="translate(245, 38) scale(0.6)" class="twinkle-2">
+  <g transform="translate(170, 335) scale(0.75)" class="twinkle-c">
     <use href="#microStar" fill="#FFFFFF"/>
   </g>
-  <g transform="translate(625, 42) scale(0.65)" class="twinkle-1">
+  <g transform="translate(835, 360) scale(0.8)" class="twinkle-a">
     <use href="#microStar" fill="#F472B6"/>
   </g>
+  <g transform="translate(440, 75) scale(0.65)" class="twinkle-b">
+    <use href="#microStar" fill="#22D3EE"/>
+  </g>
+  <g transform="translate(685, 385) scale(0.7)" class="twinkle-c">
+    <use href="#microStar" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(48, 365) scale(0.6)" class="twinkle-a">
+    <use href="#microStar" fill="#C8A9DF"/>
+  </g>
 
-  <!-- ==================== TOP COSMIC PILL BADGE ==================== -->
-  <!-- Centered at x=430, y=28 (Matches Portfolio Hero Pill: ✦ SYSTEM ONLINE • RAPID BESPOKE LAUNCH 🟢) -->
-  <g transform="translate(430, 28)">
-    <!-- Frosted Pill Container -->
-    <rect x="-172" y="-12" width="344" height="25" rx="12.5" fill="url(#pillBg)" stroke="url(#pillBorder)" stroke-width="1"/>
-    
-    <!-- Left Starburst Icon (Soft Rose #F472B6) -->
-    <g transform="translate(-154, 0.5)">
-      <polygon points="0,-4.5 1.4,-1.4 4.5,0 1.4,1.4 0,4.5 -1.4,1.4 -4.5,0 -1.4,-1.4" fill="#F472B6" filter="url(#subtleGlow)"/>
+  <!-- ==================== HERO MAIN HEADLINE (Matches Image 2 Exactly) ==================== -->
+  <!-- Line 1: "I design & build" -->
+  <text x="500" y="162" text-anchor="middle" class="display-sans" font-size="54" font-weight="800" fill="#FFFFFF" letter-spacing="-1.5px">
+    I design &amp; build
+  </text>
+
+  <!-- Line 2: "modern websites." in Liquid Chrome Violet -->
+  <text x="500" y="228" text-anchor="middle" class="display-sans" font-size="54" font-weight="800" fill="url(#modernWebsitesGrad)" letter-spacing="-1.5px" filter="url(#subtleGlow)">
+    modern websites.
+  </text>
+
+  <!-- ==================== SUBTITLE COPY (3-Line Clean Paragraph from Image 2) ==================== -->
+  <g transform="translate(500, 268)" text-anchor="middle" class="body-sans" font-size="14.2" font-weight="400" fill="#C8A9DF" letter-spacing="0.1px">
+    <text x="0" y="0">Fast, responsive, bespoke web experiences for businesses, clinics,</text>
+    <text x="0" y="21">and creators. Clean code, sub-0.4s load times, and rapid turnaround</text>
+    <text x="0" y="42">from idea to launch.</text>
+  </g>
+
+  <!-- ==================== CALL TO ACTION BUTTONS (Exact Replica from Image 2) ==================== -->
+  <g transform="translate(500, 362)">
+    <!-- Button 1 (Left): "Start a project →" -->
+    <g transform="translate(-190, -22)" filter="url(#btnShadow)">
+      <!-- Pill Container -->
+      <rect x="0" y="0" width="176" height="44" rx="22" fill="url(#btnPrimaryGrad)" stroke="rgba(244,114,182,0.4)" stroke-width="1.2"/>
+      <!-- Button Text -->
+      <text x="74" y="27" text-anchor="middle" class="display-sans" font-size="13.5" font-weight="600" fill="#FFFFFF" letter-spacing="-0.1px">
+        Start a project
+      </text>
+      <!-- Arrow Right Icon -->
+      <g transform="translate(136, 22)">
+        <line x1="-6" y1="0" x2="6" y2="0" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+        <polyline points="2,-4 6,0 2,4" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
     </g>
 
-    <!-- Pill Monospace Text -->
-    <text x="-4" y="3.8" text-anchor="middle" class="mono" font-size="9.5" font-weight="600" fill="#EAEAEA" letter-spacing="1.1px">
-      SYSTEM ONLINE <tspan fill="#7F4CA5">&#8226;</tspan> RAPID BESPOKE LAUNCH
-    </text>
+    <!-- Button 2 (Right): "Explore My Works" -->
+    <g transform="translate(14, -22)">
+      <!-- Pill Container with Translucent Plum Surface -->
+      <rect x="0" y="0" width="180" height="44" rx="22" fill="url(#btnSecondaryBg)" stroke="rgba(127,76,165,0.45)" stroke-width="1.2"/>
+      
+      <!-- Layers / Stack Icon -->
+      <g transform="translate(32, 22)">
+        <!-- Top Isometric Diamond -->
+        <polygon points="0,-5 8,-1 0,3 -8,-1" fill="none" stroke="#A855F7" stroke-width="1.4" stroke-linejoin="round"/>
+        <!-- Bottom Isometric Layer Arc -->
+        <polyline points="-8,3 0,7 8,3" fill="none" stroke="#A855F7" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
 
-    <!-- Right Pulsing Live Status Dot (Emerald / Cyber Cyan #22D3EE) -->
-    <g transform="translate(150, 0.5)">
-      <!-- Outer Glow Ring -->
-      <circle cx="0" cy="0" r="4.5" fill="#22D3EE" opacity="0.3" filter="url(#subtleGlow)"/>
-      <!-- Core Pulsing Dot -->
-      <circle cx="0" cy="0" r="2.8" fill="#34D399" class="pulse-dot"/>
+      <!-- Button Text -->
+      <text x="104" y="27" text-anchor="middle" class="display-sans" font-size="13.5" font-weight="500" fill="#EAEAEA" letter-spacing="-0.1px">
+        Explore My Works
+      </text>
     </g>
   </g>
 
-  <!-- ==================== HERO: FULL NAME DISPLAY ==================== -->
-  <!-- Framing Tech Brackets in Subtle Royal Violet -->
-  <g opacity="0.5">
-    <path d="M 175 72 L 160 72 L 160 116 L 175 116" fill="none" stroke="#4B1C71" stroke-width="1.5"/>
-    <path d="M 685 72 L 700 72 L 700 116 L 685 116" fill="none" stroke="#4B1C71" stroke-width="1.5"/>
-  </g>
-
-  <!-- Centered Name Typography -->
-  <g transform="translate(430, 96)" text-anchor="middle">
-    <!-- Ambient Halo Glow behind text -->
-    <text class="display-title name-glow-pulse" font-size="38" font-weight="900" letter-spacing="5px" fill="#7F4CA5" opacity="0.35" filter="url(#ambientLight)">
-      THAHANI AZMI
-    </text>
-
-    <!-- Crisp Dual-Tone Name: THAHANI (Mist White #EAEAEA) + AZMI (Chrome Violet Gradient) -->
-    <text class="display-title" font-size="38" font-weight="900" letter-spacing="5px">
-      <tspan fill="#EAEAEA" filter="url(#subtleGlow)">THAHANI </tspan><tspan fill="url(#nameAzmiGrad)" filter="url(#neonGlow)">AZMI</tspan>
-    </text>
-  </g>
-
-  <!-- Specular Shimmer Sweep Across Letters -->
-  <g clip-path="url(#nameClip)">
-    <rect y="55" width="150" height="55" fill="url(#shimmerBeamGrad)">
-      <animate attributeName="x" values="120; 680; 680" keyTimes="0; 0.38; 1" dur="4.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.34; 0.38; 1" dur="4.8s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <!-- ==================== HERO TAGLINE (Direct from Portfolio Hero) ==================== -->
-  <!-- "I design & build modern websites." -->
-  <g transform="translate(430, 133)" text-anchor="middle">
-    <text class="sans-sub" font-size="19" font-weight="700" letter-spacing="-0.3px">
-      <tspan fill="#EAEAEA">I design &amp; build </tspan>
-      <tspan fill="url(#taglineChrome)" filter="url(#subtleGlow)">modern websites.</tspan>
-    </text>
-  </g>
-
-  <!-- Subtitle Description (Direct from Portfolio Hero) -->
-  <g transform="translate(430, 160)" text-anchor="middle">
-    <text class="sans-sub" font-size="12" font-weight="400" fill="#B5B5B5" letter-spacing="0.2px">
-      Fast, responsive, bespoke web experiences <tspan fill="#7F4CA5">&#8226;</tspan> Clean code &amp; rapid turnaround
-    </text>
-  </g>
-
-  <!-- ==================== RADIANT UNDERLINE BEAM ==================== -->
-  <g transform="translate(430, 184)">
-    <line x1="-190" y1="0" x2="190" y2="0" stroke="url(#beamGrad)" stroke-width="1.3" class="beam-shimmer"/>
-    <!-- Center Sparkling Diamond (Soft Rose #F472B6) -->
-    <polygon points="0,-4 4,0 0,4 -4,0" fill="#F472B6" filter="url(#subtleGlow)"/>
-  </g>
-
-  <!-- ==================== TECH STACK STRIP (Matches Portfolio Hero Strip) ==================== -->
+  <!-- ==================== TECH STACK STRIP (From Image 2 Footer) ==================== -->
   <!-- ⚛ React 19   TS TypeScript   ☁ Cloudflare   ✦ Tailwind CSS   ⚡ Vite -->
-  <g transform="translate(430, 222)" text-anchor="middle">
+  <g transform="translate(500, 442)" text-anchor="middle" class="mono-tech" font-size="12" font-weight="500">
     <!-- Item 1: React 19 -->
-    <g transform="translate(-230, 0)">
-      <text class="mono" font-size="11.5" font-weight="500">
-        <tspan fill="#7F4CA5" font-weight="700">⚛ </tspan><tspan fill="#B5B5B5">React 19</tspan>
+    <g transform="translate(-240, 0)">
+      <text x="0" y="0">
+        <tspan fill="#A855F7" font-weight="700">⚛ </tspan><tspan fill="#B5B5B5">React 19</tspan>
       </text>
     </g>
 
     <!-- Item 2: TypeScript -->
-    <g transform="translate(-115, 0)">
-      <text class="mono" font-size="11.5" font-weight="500">
-        <tspan fill="#7F4CA5" font-weight="700">TS </tspan><tspan fill="#B5B5B5">TypeScript</tspan>
+    <g transform="translate(-120, 0)">
+      <text x="0" y="0">
+        <tspan fill="#A855F7" font-weight="700">TS </tspan><tspan fill="#B5B5B5">TypeScript</tspan>
       </text>
     </g>
 
     <!-- Item 3: Cloudflare -->
     <g transform="translate(0, 0)">
-      <text class="mono" font-size="11.5" font-weight="500">
-        <tspan fill="#7F4CA5" font-weight="700">☁ </tspan><tspan fill="#B5B5B5">Cloudflare</tspan>
+      <text x="0" y="0">
+        <tspan fill="#A855F7" font-weight="700">☁ </tspan><tspan fill="#B5B5B5">Cloudflare</tspan>
       </text>
     </g>
 
     <!-- Item 4: Tailwind CSS -->
-    <g transform="translate(115, 0)">
-      <text class="mono" font-size="11.5" font-weight="500">
+    <g transform="translate(120, 0)">
+      <text x="0" y="0">
         <tspan fill="#F472B6" font-weight="700">✦ </tspan><tspan fill="#B5B5B5">Tailwind CSS</tspan>
       </text>
     </g>
 
     <!-- Item 5: Vite -->
-    <g transform="translate(230, 0)">
-      <text class="mono" font-size="11.5" font-weight="500">
+    <g transform="translate(240, 0)">
+      <text x="0" y="0">
         <tspan fill="#22D3EE" font-weight="700">⚡ </tspan><tspan fill="#B5B5B5">Vite</tspan>
       </text>
     </g>
-  </g>
-
-  <!-- ==================== CORNER HUD ACCENTS ==================== -->
-  <g transform="translate(22, 22)" opacity="0.6">
-    <path d="M 0 10 L 0 0 L 10 0" fill="none" stroke="#7F4CA5" stroke-width="1.2"/>
-  </g>
-  <g transform="translate(838, 22)" opacity="0.6">
-    <path d="M 0 10 L 0 0 L -10 0" fill="none" stroke="#7F4CA5" stroke-width="1.2"/>
-  </g>
-  <g transform="translate(22, 248)" opacity="0.6">
-    <path d="M 0 -10 L 0 0 L 10 0" fill="none" stroke="#7F4CA5" stroke-width="1.2"/>
-  </g>
-  <g transform="translate(838, 248)" opacity="0.6">
-    <path d="M 0 -10 L 0 0 L -10 0" fill="none" stroke="#7F4CA5" stroke-width="1.2"/>
   </g>
 </svg>

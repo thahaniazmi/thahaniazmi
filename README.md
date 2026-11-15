@@ -1,11 +1,13 @@
 <div align="center">
 
   <!-- ==================== HEADER BANNER ==================== -->
-  <img src="./assets/header.svg?v=11" width="98%" alt="Thahani Azmi // Header Banner" />
+  <img src="./assets/header.svg?v=portfolio-v3" width="100%" alt="Thahani Azmi // Modern Websites" />
+
+  <br />
 
   <!-- Animated Typing SVG (Portfolio Muted Lavender #C8A9DF & Plus Jakarta Sans) -->
   <a href="https://thahaniazmi.dev" target="_blank">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Plus+Jakarta+Sans&weight=600&size=21&pause=1200&color=C8A9DF&center=true&vCenter=true&width=580&height=48&lines=I+design+%26+build+modern+websites.;Full+Stack+Software+Developer;Fast%2C+responsive%2C+bespoke+web+experiences;TypeScript+%26+Python+Enthusiast;Clean+code+%26+rapid+turnaround" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Plus+Jakarta+Sans&weight=600&size=20&pause=1200&color=C8A9DF&center=true&vCenter=true&width=580&height=46&lines=I+design+%26+build+modern+websites.;Full+Stack+Software+Developer;Fast%2C+responsive%2C+bespoke+web+experiences;TypeScript+%26+Python+Enthusiast;Clean+code+%26+rapid+turnaround" alt="Typing SVG" />
   </a>
 
   <!-- Connect Socials (Portfolio Obsidian #202020 & Medium Orchid #7F4CA5) -->

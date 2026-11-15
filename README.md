@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- ==================== HEADER BANNER ==================== -->
-  <img src="./assets/header.svg?v=7" width="98%" alt="Thahani Azmi // Header Banner" />
+  <img src="./assets/header.svg?v=8" width="98%" alt="Thahani Azmi // Header Banner" />
 
   <!-- Animated Typing SVG (Neon Purple) -->
   <a href="https://github.com/thahaniazmi">

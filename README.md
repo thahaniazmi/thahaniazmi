@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- ==================== HEADER BANNER ==================== -->
-  <img src="./assets/header.svg?v=6" width="98%" alt="Thahani Azmi // Header Banner" />
+  <img src="./assets/header.svg?v=7" width="98%" alt="Thahani Azmi // Header Banner" />
 
   <!-- Animated Typing SVG (Neon Purple) -->
   <a href="https://github.com/thahaniazmi">
@@ -31,14 +31,14 @@
 
   <p><b>Backend &amp; Databases</b></p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,python,postgres,mysql&theme=dark" alt="Backend & Databases" />
+    <img src="https://skillicons.dev/icons?i=nodejs,python,postgres,mysql&theme=dark" alt="Backend & Databases" />
   </a>
 
   <br /><br />
 
   <p><b>DevOps &amp; Developer Tools</b></p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,figma&theme=dark" alt="Tools & DevOps" />
+    <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,figma&theme=dark" alt="Tools & DevOps" />
   </a>
 
 </div>

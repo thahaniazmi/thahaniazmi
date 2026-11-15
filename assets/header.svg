@@ -175,9 +175,9 @@
   <!-- Subtle Framing Tech Brackets -->
   <g class="bracket-pulse" opacity="0.45">
     <!-- Left Bracket -->
-    <path d="M 120 76 L 105 76 L 105 132 L 120 132" fill="none" stroke="#7C3AED" stroke-width="1.6"/>
+    <path d="M 120 88 L 105 88 L 105 152 L 120 152" fill="none" stroke="#7C3AED" stroke-width="1.6"/>
     <!-- Right Bracket -->
-    <path d="M 720 76 L 735 76 L 735 132 L 720 132" fill="none" stroke="#7C3AED" stroke-width="1.6"/>
+    <path d="M 720 88 L 735 88 L 735 152 L 720 152" fill="none" stroke="#7C3AED" stroke-width="1.6"/>
   </g>
 
   <!-- Centered Name Typography Group -->
